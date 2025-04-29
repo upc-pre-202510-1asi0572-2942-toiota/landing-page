@@ -9,6 +9,7 @@ import { Pricing } from "./components/pricing";
 import { Testimonials } from "./components/testimonials";
 import { Team } from "./components/Team";
 import { Contact } from "./components/contact";
+import { Footer } from "./components/footer";
 import JsonData from "./data/data.json";
 import SmoothScroll from "smooth-scroll";
 import "./App.css";
@@ -36,6 +37,7 @@ const App = () => {
       <About data={landingPageData.About} />
       <Team data={landingPageData.Team} />
       <Contact data={landingPageData.Contact} />
+      <Footer data={landingPageData.Footer} />
     </div>
   );
 };
