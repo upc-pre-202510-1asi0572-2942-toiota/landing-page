@@ -151,25 +151,80 @@
         "twitter": "twitter.com",
         "youtube": "youtube.com"
     },
-    "Features": [{
-            "icon": "fa fa-comments-o",
-            "title": "Lorem ipsum",
-            "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+    
+    "Features": [
+      {
+        "icon": "fa fa-comments-o",
+        "title": "Soporte 24/7",
+        "text": "Nuestro equipo está disponible en todo momento para resolver tus dudas y brindarte asistencia."
+      },
+      {
+        "icon": "fa fa-bullhorn",
+        "title": "Actualizaciones",
+        "text": "Mantente informado con nuestras últimas noticias y mejoras en la plataforma."
+      },
+      {
+        "icon": "fa fa-group",
+        "title": "Comunidad",
+        "text": "Únete a nuestra comunidad de usuarios y comparte tus experiencias."
+      },
+      {
+        "icon": "fa fa-magic",
+        "title": "Soluciones",
+        "text": "Descubre cómo nuestras herramientas pueden transformar tu experiencia de salud hormonal."
+      }
+    ],
+    "Footer": {
+      "columns": [
+        {
+          "title": "Lo que hacemos",
+          "links": [
+            { "text": "Funciones", "url": "/" },
+            { "text": "Blog", "url": "/" },
+            { "text": "Seguridad", "url": "/" },
+            { "text": "Para empresas", "url": "/" }
+          ]
         },
         {
-            "icon": "fa fa-bullhorn",
-            "title": "Lorem ipsum",
-            "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+            "title": "Quiénes somos",
+            "links": [
+              { "text": "Acerca de nosotros", "url": "/" },
+              { "text": "Empleos", "url": "/" },
+              { "text": "Centro de marca", "url": "/" },
+              { "text": "Privacidad", "url": "/" }
+            ]
+          },
+        {
+          "title": "Usa HormonalCare",
+          "links": [
+            { "text": "Android", "url": "/" },
+            { "text": "iPhone", "url": "/" },
+            { "text": "HormonalCare Web", "url": "/" }
+          ]
         },
         {
-            "icon": "fa fa-group",
-            "title": "Lorem ipsum",
-            "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
-        },
-        {
-            "icon": "fa fa-magic",
-            "title": "Lorem ipsum",
-            "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+          "title": "¿Necesitas ayuda?",
+          "links": [
+            { "text": "Contáctanos", "url": "/" },
+            { "text": "Centro de ayuda", "url": "/" },
+            { "text": "Aplicaciones", "url": "/" },
+            { "text": "Avisos de seguridad", "url": "/" }
+          ]
         }
-    ]
+      ],
+      "copyright": {
+        "text": "© 2025 HormonalCare. Todos los derechos reservados.",
+        "links": [
+          { "text": "Política de privacidad", "url": "/privacy" },
+          { "text": "Términos de servicio", "url": "/terms" }
+        ]
+      },
+      "social": [
+        { "icon": "fa fa-facebook", "url": "https://facebook.com" },
+        { "icon": "fa fa-twitter", "url": "https://twitter.com" },
+        { "icon": "fa fa-instagram", "url": "https://instagram.com" },
+        { "icon": "fa fa-linkedin", "url": "https://linkedin.com" }
+      ]
+    }
+    
 }

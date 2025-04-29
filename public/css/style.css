@@ -557,21 +557,7 @@ color: #777;
 	color: #608dfd;
 	background: #fff;
 }
-/* Footer Section*/
-#footer {
-	background: #fff;
-	padding: 30px 0;
-}
-#footer p {
-	color: #888;
-	font-size: 14px;
-}
-#footer a {
-	color: #608dfd;
-}
-#footer a:hover {
-	border-bottom: 2px solid #608dfd;
-}
+
 
 @media (max-width: 768px) {
 #about img {
@@ -632,3 +618,116 @@ color: #777;
 .btn-primary:hover {
   background-color: #0056b3;
 }
+footer {
+    background-color: #F3F3F3;
+    color: #40535B;
+    padding: 40px 0;
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+    border-top: 1px solid #E0E0E0;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .footer-columns {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 40px;
+  }
+  
+  .footer-column {
+    min-width: 160px;
+  }
+  
+  .footer-column h4 {
+    margin-bottom: 12px;
+    
+  }
+  
+  .footer-column ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .footer-column li {
+    margin-bottom: 8px;
+  }
+  
+  .footer-column a {
+    color: #40535B;
+    text-decoration: none;
+    transition: color 0.2s ease-in-out;
+  }
+  
+  .footer-column a:hover {
+    text-decoration: underline;
+    color: #6A828D;
+  }
+  
+  .footer-bottom {
+    margin-top: 40px;
+    padding-top: 20px;
+    border-top: 1px solid #ddd;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .footer-bottom p {
+    margin: 0;
+  }
+  
+  .legal-links {
+    display: flex;
+    gap: 15px;
+    margin-top: 10px;
+  }
+  
+  .legal-links a {
+    color: #666;
+    text-decoration: none;
+  }
+  
+  .legal-links a:hover {
+    text-decoration: underline;
+    color: #40535B;
+  }
+  
+  .social-links {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .social-links a {
+    color: #40535B;
+    transition: color 0.2s ease;
+  }
+  
+  .social-links a:hover {
+    color: #6A828D;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .footer-columns {
+      flex-direction: column;
+      gap: 24px;
+    }
+  
+    .footer-bottom {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 20px;
+    }
+  
+    .social-links {
+      margin-top: 10px;
+    }
+  }
+  
