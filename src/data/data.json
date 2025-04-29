@@ -1,8 +1,8 @@
 {
     "Header": {
 
-        "title": "We are a Landing Page",
-        "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sed commodo nibh ante facilisis bibendum."
+        "title": "Welcome to HormonalCare",
+        "paragraph": "The platform that controls the treatment of diabetes diseases."
 
     },
     "About": {
@@ -20,6 +20,45 @@
             "Lorem ipsum dolor"
         ]
     },
+    "Pricing": [
+        {
+            "plan": "Basic",
+            "price": "9",
+            "currency": "$",
+            "period": "month",
+            "features": [
+                "10 Users",
+                "2 GB Storage",
+                "Email support"
+            ],
+            "buttonText": "Sign Up"
+        },
+        {
+            "plan": "Regular",
+            "price": "29",
+            "currency": "$",
+            "period": "month",
+            "features": [
+                "50 Users",
+                "10 GB Storage",
+                "Priority email support"
+            ],
+            "buttonText": "Get Started"
+        },
+        {
+            "plan": "Premium",
+            "price": "49",
+            "currency": "$",
+            "period": "month",
+            "features": [
+                "Unlimited Users",
+                "100 GB Storage",
+                "Phone & email support",
+                "Custom domain"
+            ],
+            "buttonText": "Go Premium"
+        }
+    ],
     "Services": [{
             "icon": "fa fa-wordpress",
             "name": "Lorem ipsum dolor",
