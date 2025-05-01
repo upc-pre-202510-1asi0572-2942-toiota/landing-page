@@ -183,25 +183,25 @@
     "Footer": {
       "columns": [
         {
-          "title": "Lo que hacemos",
+          "title": "What we do",
           "links": [
-            { "text": "Funciones", "url": "/" },
+            { "text": "Features", "url": "/" },
             { "text": "Blog", "url": "/" },
-            { "text": "Seguridad", "url": "/" },
-            { "text": "Para empresas", "url": "/" }
+            { "text": "Security", "url": "/" },
+            { "text": "For businesses", "url": "/" }
           ]
         },
         {
-            "title": "Quiénes somos",
-            "links": [
-              { "text": "Acerca de nosotros", "url": "/" },
-              { "text": "Empleos", "url": "/" },
-              { "text": "Centro de marca", "url": "/" },
-              { "text": "Privacidad", "url": "/" }
-            ]
-          },
+          "title": "Who we are",
+          "links": [
+            { "text": "About us", "url": "/" },
+            { "text": "Jobs", "url": "/" },
+            { "text": "Brand center", "url": "/" },
+            { "text": "Privacy", "url": "/" }
+          ]
+        },
         {
-          "title": "Usa HormonalCare",
+          "title": "Use HormonalCare",
           "links": [
             { "text": "Android", "url": "/" },
             { "text": "iPhone", "url": "/" },
@@ -209,20 +209,20 @@
           ]
         },
         {
-          "title": "¿Necesitas ayuda?",
+          "title": "Need help?",
           "links": [
-            { "text": "Contáctanos", "url": "/" },
-            { "text": "Centro de ayuda", "url": "/" },
-            { "text": "Aplicaciones", "url": "/" },
-            { "text": "Avisos de seguridad", "url": "/" }
+            { "text": "Contact us", "url": "/" },
+            { "text": "Help center", "url": "/" },
+            { "text": "Apps", "url": "/" },
+            { "text": "Security notices", "url": "/" }
           ]
         }
       ],
       "copyright": {
-        "text": "© 2025 HormonalCare. Todos los derechos reservados.",
+        "text": "© 2025 HormonalCare. All rights reserved.",
         "links": [
-          { "text": "Política de privacidad", "url": "/privacy" },
-          { "text": "Términos de servicio", "url": "/terms" }
+          { "text": "Privacy policy", "url": "/privacy" },
+          { "text": "Terms of service", "url": "/terms" }
         ]
       },
       "social": [
