@@ -416,21 +416,59 @@ header .intro-text {
 /* Team Section */
 #team {
 	padding: 100px 0;
-}
-#team h4 {
+  }
+  
+  #team h4 {
 	margin: 5px 0;
-}
-#team .team-img {
-	width: 240px;
-}
-#team .thumbnail {
+  }
+  
+  #team .section-title {
+	margin-bottom: 40px;
+  }
+  
+  #team .team-row {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 30px;
+  }
+  
+  #team .team-member {
+	width: 160px;
+	text-align: center;
+  }
+  
+  #team .team-img {
+	width: 100%;
+	aspect-ratio: 1 / 1;
+	object-fit: cover;
+	margin-bottom: 10px;
+	border-radius: 50%;
+	border: 2px solid #ddd;
+	padding: 5px;
+  }
+  
+  #team .caption h4 {
+	font-size: 18px;
+	font-weight: bold;
+	margin: 10px 0 5px;
+  }
+  
+  #team .caption p {
+	margin: 0;
+	font-size: 14px;
+	color: #777;
+  }
+  #team .thumbnail {
 	background: transparent;
 	border: 0;
-}
-#team .thumbnail .caption {
-	padding: 10px 0 0 0;
-	color: #888;
-}
+	text-align: center;
+  }
+  
+
+
+
+
 /* Contact Section */
 #contact {
 	padding: 100px 0 60px 0;
@@ -730,4 +768,3 @@ footer {
       margin-top: 10px;
     }
   }
-  
