@@ -123,25 +123,31 @@
             "name": "Johnathan Doe"
         }
     ],
-    "Team": [{
-            "img": "img/team/01.jpg",
-            "name": "John Doe",
-            "job": "Director"
+    "Team": [
+      {
+            "img": "img/team/Profiles/andrelatorre.png",
+            "name": "Andre La Torre",
+            "job": "Web Developer"
         },
         {
-            "img": "img/team/02.jpg",
-            "name": "Mike Doe",
-            "job": "Senior Designer"
+            "img": "img/team/Profiles/estefanolostaunau.png",
+            "name": "Estefano Lostaunau",
+            "job": "Mobile & Backend Developer"
         }, {
-            "img": "img/team/03.jpg",
-            "name": "Jane Doe",
-            "job": "Senior Designer"
+            "img": "img/team/Profiles/luischinchihualpa.jpg",
+            "name": "Luis Chinchihualpa",
+            "job": "Web Developer"
         },
         {
-            "img": "img/team/04.jpg",
-            "name": "Karen Doe",
-            "job": "Project Manager"
-        }
+            "img": "img/team/Profiles/sandroquispesivana.png",
+            "name": "Sandro Quispesivana",
+            "job": "Mobile & Backend Developer"
+        },
+        {
+          "img": "img/team/Profiles/sergiopecan.jpg",
+          "name": "Sergio Pecan",
+          "job": "Web Developer"
+      }
     ],
     "Contact": {
         "address": "4321 California St, San Francisco, CA 12345 ",
