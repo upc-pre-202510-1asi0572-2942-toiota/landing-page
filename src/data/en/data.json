@@ -1,0 +1,9 @@
+{
+  "Header": { "title": "Welcome" },
+  "Features": { "feature1": "Feature 1" },
+  "Pricing": { "price": "Free" },
+  "Testimonials": { "testimonial1": "Great!" },
+  "About": { "info": "About us" },
+  "Contact": { "email": "contact@example.com" },
+  "Footer": { "copyright": "© 2025" }
+}
