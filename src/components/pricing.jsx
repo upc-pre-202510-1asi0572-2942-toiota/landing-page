@@ -4,10 +4,6 @@ export const Pricing = ({ data }) => {
       <div className="container">
         <div className="section-title">
           <h2>Pricing</h2>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed
-            dapibus leonec.
-          </p>
         </div>
         <div className="row">
           {data && data.length

@@ -6,19 +6,19 @@
 
     },
     "About": {
-        "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-        "Why": [
-            "Lorem ipsum dolor",
-            "Tempor incididunt",
-            "Lorem ipsum dolor",
-            "Incididunt ut labore"
-        ],
-        "Why2": [
-            "Aliquip ex ea commodo",
-            "Lorem ipsum dolor",
-            "Exercitation ullamco",
-            "Lorem ipsum dolor"
-        ]
+      "paragraph": "Toiota is a startup made up of students from the Faculty of Engineering and Sciences at the Peruvian University of Applied Sciences (UPC), dedicated to optimizing medical follow-up. Our vision is to address the existing challenges in the Peruvian healthcare system, especially in the follow-up of hormonal diseases.",
+      "Why": [
+        "Personalized patient follow-up",
+        "Focus on hormonal diseases",
+        "Innovative technological solutions",
+        "Commitment to public health"
+      ],
+      "Why2": [
+        "Multidisciplinary team of students",
+        "Based on medical evidence",
+        "Adapted to the Peruvian healthcare system",
+        "Driven by digital innovation"
+      ]
     },
     "Pricing": [
         {
