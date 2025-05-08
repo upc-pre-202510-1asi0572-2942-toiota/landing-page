@@ -1,9 +1,0 @@
-{
-  "Header": { "title": "Bienvenido" },
-  "Features": { "feature1": "Característica 1" },
-  "Pricing": { "price": "Gratis" },
-  "Testimonials": { "testimonial1": "¡Genial!" },
-  "About": { "info": "Sobre nosotros" },
-  "Contact": { "email": "contacto@ejemplo.com" },
-  "Footer": { "copyright": "© 2025" }
-}

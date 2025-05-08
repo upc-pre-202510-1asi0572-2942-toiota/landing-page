@@ -1,17 +1,15 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import { Navigation } from "./components/navigation";
 import { Header } from "./components/header";
 import { Features } from "./components/features";
 import { About } from "./components/about";
-import { Services } from "./components/services";
-import { Gallery } from "./components/gallery";
 import { Pricing } from "./components/pricing";
 import { Testimonials } from "./components/testimonials";
 import { Team } from "./components/Team";
 import { Contact } from "./components/contact";
 import { Footer } from "./components/footer";
-import JsonData from "./data/data.json";
 import SmoothScroll from "smooth-scroll";
+import { useTranslation } from 'react-i18next';
 import "./App.css";
 
 export const scroll = new SmoothScroll('a[href*="#"]', {
@@ -20,24 +18,19 @@ export const scroll = new SmoothScroll('a[href*="#"]', {
 });
 
 const App = () => {
-  const [landingPageData, setLandingPageData] = useState({});
-  useEffect(() => {
-    setLandingPageData(JsonData);
-  }, []);
+  const { t } = useTranslation();
 
   return (
     <div>
       <Navigation />
-      <Header data={landingPageData.Header} />
-      <Features data={landingPageData.Features} />
-      <Pricing data={landingPageData.Pricing} />
-      {/* <Services data={landingPageData.Services} /> */}
-      {/* <Gallery data={landingPageData.Gallery} /> */}
-      <Testimonials data={landingPageData.Testimonials} />
-      <About data={landingPageData.About} />
-      <Team data={landingPageData.Team} />
-      <Contact data={landingPageData.Contact} />
-      <Footer data={landingPageData.Footer} />
+      <Header data={t('Header')} />
+      <Features data={t('Features', { returnObjects: true })} />
+      <Pricing data={t('Pricing', { returnObjects: true })} />
+      <Testimonials data={t('Testimonials', { returnObjects: true })} />
+      <About data={t('About', { returnObjects: true })} />
+      <Team data={t('Team', { returnObjects: true })} />
+      <Contact data={t('Contact')} />
+      <Footer data={t('Footer', { returnObjects: true })} />
     </div>
   );
 };

@@ -1,0 +1,249 @@
+{
+    "Header": {
+        "title": "Welcome to HormonalCare",
+        "paragraph": "The platform that manages the treatment of diabetes diseases."
+    },
+    "Features": {
+        "title": "Features",
+        "paragraph": "HormonalCare offers a variety of features designed to enhance your hormonal health experience. From private messaging to business solutions, we have everything you need to stay connected and healthy.",
+        "columns": [
+            {
+                "icon": "fa fa-comments-o",
+                "title": "24/7 Support",
+                "text": "Our team is available at all times to answer your questions and provide assistance."
+            },
+            {
+                "icon": "fa fa-bullhorn",
+                "title": "Updates",
+                "text": "Stay informed with our latest news and platform improvements."
+            },
+            {
+                "icon": "fa fa-group",
+                "title": "Community",
+                "text": "Join our user community and share your experiences."
+            },
+            {
+                "icon": "fa fa-magic",
+                "title": "Solutions",
+                "text": "Discover how our tools can transform your hormonal health experience."
+            }
+        ]
+    },
+    "Pricing": {
+        "title": "Pricing",
+        "paragraph": "Choose the plan that best suits your needs and start enjoying the benefits of HormonalCare. All our plans include access to all features and future updates.",
+        "columns": [
+            {
+                "plan": "Basic",
+                "price": "9",
+                "currency": "$",
+                "period": "month",
+                "features": [
+                    "10 Users",
+                    "2 GB Storage",
+                    "Email Support"
+                ],
+                "buttonText": "Sign Up"
+            },
+            {
+                "plan": "Regular",
+                "price": "29",
+                "currency": "$",
+                "period": "month",
+                "features": [
+                    "50 Users",
+                    "10 GB Storage",
+                    "Priority Email Support"
+                ],
+                "buttonText": "Get Started"
+            },
+            {
+                "plan": "Premium",
+                "price": "49",
+                "currency": "$",
+                "period": "month",
+                "features": [
+                    "Unlimited Users",
+                    "100 GB Storage",
+                    "Phone and Email Support",
+                    "Custom Domain"
+                ],
+                "buttonText": "Go Premium"
+            }
+        ]
+    },
+    "Services": {
+        "title": "Our Services",
+        "paragraph": "HormonalCare offers a variety of services designed to enhance your hormonal health experience. From private messaging to business solutions, we have everything you need to stay connected and healthy.",
+        "columns": [
+            {
+                "icon": "fa fa-lock",
+                "name": "Private Messaging",
+                "text": "With end-to-end encryption, your personal messages and calls are secure, ensuring that only you and the recipient can access them."
+            },
+            {
+                "icon": "fa fa-users",
+                "name": "Group Chats",
+                "text": "Easily stay connected with friends and family through group conversations."
+            },
+            {
+                "icon": "fa fa-smile-o",
+                "name": "Express Yourself",
+                "text": "Use stickers, GIFs, and voice messages to share your emotions and everyday moments."
+            },
+            {
+                "icon": "fa fa-briefcase",
+                "name": "Business Solutions",
+                "text": "Transform your business by reaching customers worldwide, showcasing products, and building relationships with WhatsApp Business."
+            },
+            {
+                "icon": "fa fa-phone",
+                "name": "Voice and Video Calls",
+                "text": "Feel close to your loved ones with high-quality voice and video calls, no matter where they are."
+            }
+        ]
+    },
+    "Testimonials": {
+        "title": "What Our Clients Say",
+        "paragraph": "Our users have experienced significant improvements in their hormonal health thanks to HormonalCare. Here are some testimonials from our satisfied clients.",
+        "columns": [
+            {
+                "img": "img/testimonials/01.jpg",
+                "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+                "name": "John Doe"
+            },
+            {
+                "img": "img/testimonials/02.jpg",
+                "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+                "name": "Johnathan Doe"
+            },
+            {
+                "img": "img/testimonials/03.jpg",
+                "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+                "name": "John Doe"
+            },
+            {
+                "img": "img/testimonials/04.jpg",
+                "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+                "name": "Johnathan Doe"
+            },
+            {
+                "img": "img/testimonials/05.jpg",
+                "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+                "name": "John Doe"
+            },
+            {
+                "img": "img/testimonials/06.jpg",
+                "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+                "name": "Johnathan Doe"
+            }
+        ]
+    },
+    "Team": {
+        "title": "Meet the Team",
+        "paragraph": "Our team is made up of passionate students from the Faculty of Engineering and Sciences at the Peruvian University of Applied Sciences (UPC). We are committed to improving medical monitoring and hormonal health in Peru.",
+        "members": [
+            {
+                "img": "img/team/Profiles/andrelatorre.png",
+                "name": "Andre La Torre",
+                "job": "Web Developer"
+            },
+            {
+                "img": "img/team/Profiles/estefanolostaunau.png",
+                "name": "Estefano Lostaunau",
+                "job": "Mobile and Backend Developer"
+            },
+            {
+                "img": "img/team/Profiles/luischinchihualpa.jpg",
+                "name": "Luis Chinchihualpa",
+                "job": "Web Developer"
+            },
+            {
+                "img": "img/team/Profiles/sandroquispesivana.png",
+                "name": "Sandro Quispesivana",
+                "job": "Mobile and Backend Developer"
+            },
+            {
+                "img": "img/team/Profiles/sergiopecan.jpg",
+                "name": "Sergio Pecan",
+                "job": "Web Developer"
+            }
+        ]
+    },
+    "About": {
+        "title": "About Us",
+        "paragraph": "Toiota is a startup formed by students from the Faculty of Engineering and Sciences at the Peruvian University of Applied Sciences (UPC), dedicated to optimizing medical monitoring. Our vision is to address the existing challenges in the Peruvian healthcare system, especially in the monitoring of hormonal diseases.",
+        "Why": [
+            "Personalized patient monitoring",
+            "Focus on hormonal diseases",
+            "Innovative technological solutions",
+            "Commitment to public health"
+        ],
+        "Why2": [
+            "Multidisciplinary team of students",
+            "Based on medical evidence",
+            "Adapted to the Peruvian healthcare system",
+            "Driven by digital innovation"
+        ]
+    },
+    "Contact": {
+        "address": "4321 California Street, San Francisco, CA 12345",
+        "phone": "+1 123 456 1234",
+        "email": "info@company.com",
+        "facebook": "fb.com",
+        "twitter": "twitter.com",
+        "youtube": "youtube.com"
+    },
+    "Footer": {
+        "columns": [
+            {
+                "title": "What We Do",
+                "links": [
+                    { "text": "Features", "url": "/" },
+                    { "text": "Blog", "url": "/" },
+                    { "text": "Security", "url": "/" },
+                    { "text": "For Businesses", "url": "/" }
+                ]
+            },
+            {
+                "title": "Who We Are",
+                "links": [
+                    { "text": "About Us", "url": "/" },
+                    { "text": "Jobs", "url": "/" },
+                    { "text": "Brand Center", "url": "/" },
+                    { "text": "Privacy", "url": "/" }
+                ]
+            },
+            {
+                "title": "Use HormonalCare",
+                "links": [
+                    { "text": "Android", "url": "/" },
+                    { "text": "iPhone", "url": "/" },
+                    { "text": "HormonalCare Web", "url": "/" }
+                ]
+            },
+            {
+                "title": "Need Help?",
+                "links": [
+                    { "text": "Contact Us", "url": "/" },
+                    { "text": "Help Center", "url": "/" },
+                    { "text": "Apps", "url": "/" },
+                    { "text": "Security Notices", "url": "/" }
+                ]
+            }
+        ],
+        "copyright": {
+            "text": "© 2025 HormonalCare. All rights reserved.",
+            "links": [
+                { "text": "Privacy Policy", "url": "/privacy" },
+                { "text": "Terms of Service", "url": "/terms" }
+            ]
+        },
+        "social": [
+            { "icon": "fa fa-facebook", "url": "https://facebook.com" },
+            { "icon": "fa fa-twitter", "url": "https://twitter.com" },
+            { "icon": "fa fa-instagram", "url": "https://instagram.com" },
+            { "icon": "fa fa-linkedin", "url": "https://linkedin.com" }
+        ]
+    }
+}

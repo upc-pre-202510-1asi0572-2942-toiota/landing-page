@@ -1,4 +1,8 @@
-export const Navigation = (props) => {
+import { useTranslation } from 'react-i18next';
+
+export const Navigation = () => {
+  const { t } = useTranslation();
+
   return (
     <nav id='menu' className='navbar navbar-default navbar-fixed-top'>
       <div className='container'>
@@ -9,15 +13,14 @@ export const Navigation = (props) => {
             data-toggle='collapse'
             data-target='#bs-example-navbar-collapse-1'
           >
-            {' '}
-            <span className='sr-only'>Toggle navigation</span>{' '}
-            <span className='icon-bar'></span>{' '}
-            <span className='icon-bar'></span>{' '}
-            <span className='icon-bar'></span>{' '}
+            <span className='sr-only'>Toggle navigation</span>
+            <span className='icon-bar'></span>
+            <span className='icon-bar'></span>
+            <span className='icon-bar'></span>
           </button>
           <a className='navbar-brand page-scroll' href='#page-top'>
-            HormonalCare
-          </a>{' '}
+            {t('Navigation.brand', 'HormonalCare')}
+          </a>
         </div>
 
         <div
@@ -27,33 +30,37 @@ export const Navigation = (props) => {
           <ul className='nav navbar-nav navbar-right'>
             <li>
               <a href='#features' className='page-scroll'>
-                Features
+                {t('Navigation.links.features', 'Features')}
               </a>
             </li>
             <li>
-              <a href='#about' className='page-scroll'>
-                About
-              </a>
-            </li>
-            <li>
-              <a href='#services' className='page-scroll'>
-                Services
-              </a>
-            </li>
-            <li>
-              <a href='#portfolio' className='page-scroll'>
-                Gallery
+              <a href='#pricing' className='page-scroll'>
+                {t('Navigation.links.pricing', 'Pricing')}
               </a>
             </li>
             <li>
               <a href='#testimonials' className='page-scroll'>
-                Testimonials
+                {t('Navigation.links.testimonials', 'Testimonials')}
               </a>
             </li>
-            
+            <li>
+              <a href='#about' className='page-scroll'>
+                {t('Navigation.links.about', 'About')}
+              </a>
+            </li>
+            <li>
+              <a href='#team' className='page-scroll'>
+                {t('Navigation.links.team', 'Team')}
+              </a>
+            </li>
+            <li>
+              <a href='#contact' className='page-scroll'>
+                {t('Navigation.links.contact', 'Contact')}
+              </a>
+            </li>
           </ul>
         </div>
       </div>
     </nav>
-  )
-}
+  );
+};

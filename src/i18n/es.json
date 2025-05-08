@@ -1,0 +1,249 @@
+{
+    "Header": {
+        "title": "Bienvenido a HormonalCare",
+        "paragraph": "La plataforma que controla el tratamiento de enfermedades de diabetes."
+    },
+    "Features": {
+        "title": "Características",
+        "paragraph": "HormonalCare ofrece una variedad de características diseñadas para mejorar tu experiencia de salud hormonal. Desde la mensajería privada hasta soluciones empresariales, tenemos todo lo que necesitas para mantenerte conectado y saludable.",
+        "columns":[
+            {
+                "icon": "fa fa-comments-o",
+                "title": "Soporte 24/7",
+                "text": "Nuestro equipo está disponible en todo momento para resolver tus dudas y brindarte asistencia."
+            },
+            {
+                "icon": "fa fa-bullhorn",
+                "title": "Actualizaciones",
+                "text": "Mantente informado con nuestras últimas noticias y mejoras de la plataforma."
+            },
+            {
+                "icon": "fa fa-group",
+                "title": "Comunidad",
+                "text": "Únete a nuestra comunidad de usuarios y comparte tus experiencias."
+            },
+            {
+                "icon": "fa fa-magic",
+                "title": "Soluciones",
+                "text": "Descubre cómo nuestras herramientas pueden transformar tu experiencia de salud hormonal."
+            }
+        ]
+    },
+    "Pricing":{
+        "title": "Precios",
+        "paragraph": "Elige el plan que mejor se adapte a tus necesidades y comienza a disfrutar de los beneficios de HormonalCare. Todos nuestros planes incluyen acceso a todas las funciones y actualizaciones futuras.",
+        "columns": [
+        {
+            "plan": "Básico",
+            "price": "9",
+            "currency": "$",
+            "period": "mes",
+            "features": [
+                "10 Usuarios",
+                "2 GB de Almacenamiento",
+                "Soporte por correo electrónico"
+            ],
+            "buttonText": "Regístrate"
+        },
+        {
+            "plan": "Regular",
+            "price": "29",
+            "currency": "$",
+            "period": "mes",
+            "features": [
+                "50 Usuarios",
+                "10 GB de Almacenamiento",
+                "Soporte prioritario por correo electrónico"
+            ],
+            "buttonText": "Comenzar"
+        },
+        {
+            "plan": "Premium",
+            "price": "49",
+            "currency": "$",
+            "period": "mes",
+            "features": [
+                "Usuarios ilimitados",
+                "100 GB de Almacenamiento",
+                "Soporte por teléfono y correo electrónico",
+                "Dominio personalizado"
+            ],
+            "buttonText": "Hazte Premium"
+        }
+    ]
+    } ,
+    "Services": {
+        "title": "Nuestros Servicios",
+        "paragraph": "HormonalCare ofrece una variedad de servicios diseñados para mejorar tu experiencia de salud hormonal. Desde la mensajería privada hasta soluciones empresariales, tenemos todo lo que necesitas para mantenerte conectado y saludable.",
+        "columns":[
+            {
+                "icon": "fa fa-lock",
+                "name": "Mensajería Privada",
+                "text": "Con cifrado de extremo a extremo, tus mensajes y llamadas personales están seguros, asegurando que solo tú y el destinatario puedan acceder a ellos."
+            },
+            {
+                "icon": "fa fa-users",
+                "name": "Chats Grupales",
+                "text": "Mantente conectado fácilmente con amigos y familiares a través de conversaciones grupales."
+            },
+            {
+                "icon": "fa fa-smile-o",
+                "name": "Exprésate",
+                "text": "Usa stickers, GIFs y mensajes de voz para compartir tus emociones y momentos cotidianos."
+            },
+            {
+                "icon": "fa fa-briefcase",
+                "name": "Soluciones Empresariales",
+                "text": "Transforma tu negocio alcanzando clientes a nivel mundial, mostrando productos y construyendo relaciones con WhatsApp Business."
+            },
+            {
+                "icon": "fa fa-phone",
+                "name": "Llamadas de Voz y Video",
+                "text": "Siéntete cerca de tus seres queridos con llamadas de voz y video de alta calidad, sin importar dónde estén."
+            }
+        ]
+    },
+    "Testimonials": {
+        "title": "Lo que dicen nuestros clientes",
+        "paragraph": "Nuestros usuarios han experimentado una mejora significativa en su salud hormonal gracias a HormonalCare. Aquí hay algunos testimonios de nuestros clientes satisfechos.",
+        "columns":[
+            {
+                "img": "img/testimonials/01.jpg",
+                "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+                "name": "John Doe"
+            },
+            {
+                "img": "img/testimonials/02.jpg",
+                "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+                "name": "Johnathan Doe"
+            },
+            {
+                "img": "img/testimonials/03.jpg",
+                "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+                "name": "John Doe"
+            },
+            {
+                "img": "img/testimonials/04.jpg",
+                "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+                "name": "Johnathan Doe"
+            },
+            {
+                "img": "img/testimonials/05.jpg",
+                "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+                "name": "John Doe"
+            },
+            {
+                "img": "img/testimonials/06.jpg",
+                "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+                "name": "Johnathan Doe"
+            }
+        ]
+    },
+    "Team": {
+        "title": "Conoce al Equipo",
+        "paragraph": "Nuestro equipo está formado por estudiantes apasionados de la Facultad de Ingeniería y Ciencias de la Universidad Peruana de Ciencias Aplicadas (UPC). Estamos comprometidos a mejorar el seguimiento médico y la salud hormonal en Perú.",
+        "members":[
+            {
+                "img": "img/team/Profiles/andrelatorre.png",
+                "name": "Andre La Torre",
+                "job": "Desarrollador Web"
+            },
+            {
+                "img": "img/team/Profiles/estefanolostaunau.png",
+                "name": "Estefano Lostaunau",
+                "job": "Desarrollador Móvil y Backend"
+            },
+            {
+                "img": "img/team/Profiles/luischinchihualpa.jpg",
+                "name": "Luis Chinchihualpa",
+                "job": "Desarrollador Web"
+            },
+            {
+                "img": "img/team/Profiles/sandroquispesivana.png",
+                "name": "Sandro Quispesivana",
+                "job": "Desarrollador Móvil y Backend"
+            },
+            {
+                "img": "img/team/Profiles/sergiopecan.jpg",
+                "name": "Sergio Pecan",
+                "job": "Desarrollador Web"
+            }
+        ]
+    },
+    "About": {
+        "title": "Sobre Nosotros",
+        "paragraph": "Toiota es una startup formada por estudiantes de la Facultad de Ingeniería y Ciencias de la Universidad Peruana de Ciencias Aplicadas (UPC), dedicada a optimizar el seguimiento médico. Nuestra visión es abordar los desafíos existentes en el sistema de salud peruano, especialmente en el seguimiento de enfermedades hormonales.",
+        "Why": [
+            "Seguimiento personalizado del paciente",
+            "Enfoque en enfermedades hormonales",
+            "Soluciones tecnológicas innovadoras",
+            "Compromiso con la salud pública"
+        ],
+        "Why2": [
+            "Equipo multidisciplinario de estudiantes",
+            "Basado en evidencia médica",
+            "Adaptado al sistema de salud peruano",
+            "Impulsado por la innovación digital"
+        ]
+    },
+    "Contact": {
+        "address": "4321 Calle California, San Francisco, CA 12345",
+        "phone": "+1 123 456 1234",
+        "email": "info@company.com",
+        "facebook": "fb.com",
+        "twitter": "twitter.com",
+        "youtube": "youtube.com"
+    },
+    "Footer": {
+        "columns": [
+            {
+                "title": "Qué hacemos",
+                "links": [
+                    { "text": "Características", "url": "/" },
+                    { "text": "Blog", "url": "/" },
+                    { "text": "Seguridad", "url": "/" },
+                    { "text": "Para empresas", "url": "/" }
+                ]
+            },
+            {
+                "title": "Quiénes somos",
+                "links": [
+                    { "text": "Sobre nosotros", "url": "/" },
+                    { "text": "Trabajos", "url": "/" },
+                    { "text": "Centro de marca", "url": "/" },
+                    { "text": "Privacidad", "url": "/" }
+                ]
+            },
+            {
+                "title": "Usa HormonalCare",
+                "links": [
+                    { "text": "Android", "url": "/" },
+                    { "text": "iPhone", "url": "/" },
+                    { "text": "HormonalCare Web", "url": "/" }
+                ]
+            },
+            {
+                "title": "¿Necesitas ayuda?",
+                "links": [
+                    { "text": "Contáctanos", "url": "/" },
+                    { "text": "Centro de ayuda", "url": "/" },
+                    { "text": "Aplicaciones", "url": "/" },
+                    { "text": "Avisos de seguridad", "url": "/" }
+                ]
+            }
+        ],
+        "copyright": {
+            "text": "© 2025 HormonalCare. Todos los derechos reservados.",
+            "links": [
+                { "text": "Política de privacidad", "url": "/privacy" },
+                { "text": "Términos de servicio", "url": "/terms" }
+            ]
+        },
+        "social": [
+            { "icon": "fa fa-facebook", "url": "https://facebook.com" },
+            { "icon": "fa fa-twitter", "url": "https://twitter.com" },
+            { "icon": "fa fa-instagram", "url": "https://instagram.com" },
+            { "icon": "fa fa-linkedin", "url": "https://linkedin.com" }
+        ]
+    }
+}

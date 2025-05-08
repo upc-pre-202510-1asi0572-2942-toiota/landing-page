@@ -1,13 +1,18 @@
-import footerData from '../data/data.json'; 
+import { useTranslation } from 'react-i18next';
 
-export const Footer = (props) => {
+export const Footer = () => {
+  const { t, i18n } = useTranslation();
+
+  const changeLanguage = (language) => {
+    i18n.changeLanguage(language);
+  };
+
   return (
     <footer>
-      {/* Footer principal */}
       <div className="main-footer">
         <div className="container">
           <div className="footer-columns">
-            {footerData.Footer.columns.map((column, index) => (
+            {t('Footer.columns', { returnObjects: true }).map((column, index) => (
               <div className="footer-column" key={index}>
                 <h4>{column.title}</h4>
                 <ul>
@@ -23,16 +28,27 @@ export const Footer = (props) => {
 
           <div className="footer-bottom">
             <div className="copyright">
-              <p>{footerData.Footer.copyright.text}</p>
-              
+              <p>{t('Footer.copyright.text')}</p>
             </div>
-            
+
             <div className="social-links">
-              {footerData.Footer.social.map((social, index) => (
+              {t('Footer.social', { returnObjects: true }).map((social, index) => (
                 <a key={index} href={social.url} target="_blank" rel="noopener noreferrer">
                   <i className={social.icon}></i>
                 </a>
               ))}
+              <select
+                onChange={(e) => changeLanguage(e.target.value)}
+                defaultValue="es"
+                style={{
+                  marginLeft: '10px',
+                  borderRadius: '5px',
+                  padding: '5px',
+                }}
+              >
+                <option value="es">Español</option>
+                <option value="en">English</option>
+              </select>
             </div>
           </div>
         </div>
