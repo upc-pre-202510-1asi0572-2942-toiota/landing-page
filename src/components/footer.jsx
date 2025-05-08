@@ -39,15 +39,15 @@ export const Footer = () => {
               ))}
               <select
                 onChange={(e) => changeLanguage(e.target.value)}
-                defaultValue="es"
+                defaultValue="en"
                 style={{
                   marginLeft: '10px',
                   borderRadius: '5px',
                   padding: '5px',
                 }}
               >
-                <option value="es">Español</option>
                 <option value="en">English</option>
+                <option value="es">Español</option>
               </select>
             </div>
           </div>

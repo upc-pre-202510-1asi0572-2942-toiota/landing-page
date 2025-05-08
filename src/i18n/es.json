@@ -245,5 +245,16 @@
             { "icon": "fa fa-instagram", "url": "https://instagram.com" },
             { "icon": "fa fa-linkedin", "url": "https://linkedin.com" }
         ]
+    },
+    "Navigation": {
+        "brand": "HormonalCare",
+        "links": {
+            "features": "Características",
+            "pricing": "Precios",
+            "testimonials": "Testimonios",
+            "about": "Sobre Nosotros",
+            "team": "Equipo",
+            "contact": "Contacto"
+        }
     }
 }
