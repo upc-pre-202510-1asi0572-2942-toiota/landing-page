@@ -1,39 +1,65 @@
-import { useState } from 'react'
-import emailjs from '@emailjs/browser'
+import { useState } from 'react';
+import { useTranslation } from 'react-i18next';
+import emailjs from '@emailjs/browser';
 
 const initialState = {
   name: '',
   email: '',
   message: '',
-}
+};
 
-export const Contact = (props) => {
-  const [{ name, email, message }, setState] = useState(initialState)
+export const Contact = () => {
+  const [{ name, email, message }, setState] = useState(initialState);
+  const [statusMessage, setStatusMessage] = useState('');
+  const { t } = useTranslation();
 
   const handleChange = (e) => {
-    const { name, value } = e.target
-    setState((prevState) => ({ ...prevState, [name]: value }))
-  }
+    const { name, value } = e.target;
+    setState((prevState) => ({ ...prevState, [name]: value }));
+  };
 
-  const clearState = () => setState({ ...initialState })
+  const clearState = () => setState({ ...initialState });
+
+  const validateForm = () => {
+    if (!name || !email || !message) {
+      setStatusMessage(t('Contact.validation.allFieldsRequired'));
+      setTimeout(() => setStatusMessage(''), 3000);
+      return false;
+    }
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    if (!emailRegex.test(email)) {
+      setStatusMessage(t('Contact.validation.invalidEmail'));
+      setTimeout(() => setStatusMessage(''), 3000);
+      return false;
+    }
+    return true;
+  };
 
   const handleSubmit = (e) => {
-    e.preventDefault()
-    
+    e.preventDefault();
+
+    if (!validateForm()) return;
+
     emailjs
       .sendForm(
-        'YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', e.target, 'YOUR_USER_ID'
+        'service_pggne2g', // Replace with your EmailJS service ID
+        'template_07ms28m', // Replace with your EmailJS template ID
+        e.target,
+        'Otq5tY8AwSLCIkyIW' // Replace with your EmailJS user ID
       )
       .then(
         (result) => {
-          console.log(result.text)
-          clearState()
+          setStatusMessage(t('Contact.successMessage'));
+          setTimeout(() => setStatusMessage(''), 3000);
+          clearState();
         },
         (error) => {
-          console.log(error.text)
+          setStatusMessage(t('Contact.errorMessage'));
+          setTimeout(() => setStatusMessage(''), 3000);
         }
-      )
-  }
+      );
+  };
+
   return (
     <div>
       <div id='contact'>
@@ -41,12 +67,12 @@ export const Contact = (props) => {
           <div className='col-md-8'>
             <div className='row'>
               <div className='section-title'>
-                <h2>Get In Touch</h2>
-                <p>
-                  Please fill out the form below to send us an email and we will
-                  get back to you as soon as possible.
-                </p>
+                <h2>{t('Contact.title')}</h2>
+                <p>{t('Contact.description')}</p>
               </div>
+              {statusMessage && (
+                <div className='alert alert-info'>{statusMessage}</div>
+              )}
               <form name='sentMessage' validate onSubmit={handleSubmit}>
                 <div className='row'>
                   <div className='col-md-6'>
@@ -56,11 +82,10 @@ export const Contact = (props) => {
                         id='name'
                         name='name'
                         className='form-control'
-                        placeholder='Name'
+                        placeholder={t('Contact.form.namePlaceholder')}
                         required
                         onChange={handleChange}
                       />
-                      <p className='help-block text-danger'></p>
                     </div>
                   </div>
                   <div className='col-md-6'>
@@ -70,11 +95,10 @@ export const Contact = (props) => {
                         id='email'
                         name='email'
                         className='form-control'
-                        placeholder='Email'
+                        placeholder={t('Contact.form.emailPlaceholder')}
                         required
                         onChange={handleChange}
                       />
-                      <p className='help-block text-danger'></p>
                     </div>
                   </div>
                 </div>
@@ -84,43 +108,41 @@ export const Contact = (props) => {
                     id='message'
                     className='form-control'
                     rows='4'
-                    placeholder='Message'
+                    placeholder={t('Contact.form.messagePlaceholder')}
                     required
                     onChange={handleChange}
                   ></textarea>
-                  <p className='help-block text-danger'></p>
                 </div>
-                <div id='success'></div>
                 <button type='submit' className='btn btn-custom btn-lg'>
-                  Send Message
+                  {t('Contact.form.submitButton')}
                 </button>
               </form>
             </div>
           </div>
           <div className='col-md-3 col-md-offset-1 contact-info'>
             <div className='contact-item'>
-              <h3>Contact Info</h3>
+              <h3>{t('Contact.info.title')}</h3>
               <p>
                 <span>
-                  <i className='fa fa-map-marker'></i> Address
+                  <i className='fa fa-map-marker'></i> {t('Contact.info.address')}
                 </span>
-                {props.data ? props.data.address : 'loading'}
+                {t('Contact.info.addressValue')}
               </p>
             </div>
             <div className='contact-item'>
               <p>
                 <span>
-                  <i className='fa fa-phone'></i> Phone
+                  <i className='fa fa-phone'></i> {t('Contact.info.phone')}
                 </span>{' '}
-                {props.data ? props.data.phone : 'loading'}
+                {t('Contact.info.phoneValue')}
               </p>
             </div>
             <div className='contact-item'>
               <p>
                 <span>
-                  <i className='fa fa-envelope-o'></i> Email
+                  <i className='fa fa-envelope-o'></i> {t('Contact.info.email')}
                 </span>{' '}
-                {props.data ? props.data.email : 'loading'}
+                {t('Contact.info.emailValue')}
               </p>
             </div>
           </div>
@@ -129,17 +151,17 @@ export const Contact = (props) => {
               <div className='social'>
                 <ul>
                   <li>
-                    <a href={props.data ? props.data.facebook : '/'}>
+                    <a href={t('Contact.social.facebook')}>
                       <i className='fa fa-facebook'></i>
                     </a>
                   </li>
                   <li>
-                    <a href={props.data ? props.data.twitter : '/'}>
+                    <a href={t('Contact.social.twitter')}>
                       <i className='fa fa-twitter'></i>
                     </a>
                   </li>
                   <li>
-                    <a href={props.data ? props.data.youtube : '/'}>
+                    <a href={t('Contact.social.youtube')}>
                       <i className='fa fa-youtube'></i>
                     </a>
                   </li>
@@ -150,5 +172,5 @@ export const Contact = (props) => {
         </div>
       </div>
     </div>
-  )
-}
+  );
+};

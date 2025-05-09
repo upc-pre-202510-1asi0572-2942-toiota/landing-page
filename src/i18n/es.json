@@ -187,12 +187,34 @@
         ]
     },
     "Contact": {
-        "address": "4321 Calle California, San Francisco, CA 12345",
-        "phone": "+1 123 456 1234",
-        "email": "info@company.com",
-        "facebook": "fb.com",
-        "twitter": "twitter.com",
-        "youtube": "youtube.com"
+        "title": "Contacto",
+        "description": "Si tienes alguna pregunta o inquietud, no dudes en ponerte en contacto con nosotros. Estamos aquí para ayudarte.",
+        "form": {
+            "namePlaceholder": "Nombre",
+            "emailPlaceholder": "Correo electrónico",
+            "messagePlaceholder": "Mensaje",
+            "submitButton": "Enviar Mensaje"
+        },
+        "validation": {
+            "allFieldsRequired": "Todos los campos son obligatorios.",
+            "invalidEmail": "Por favor, introduce una dirección de correo válida."
+        },
+        "successMessage": "¡Mensaje enviado con éxito!",
+        "errorMessage": "No se pudo enviar el mensaje. Por favor, inténtalo de nuevo más tarde.",
+        "info": {
+            "title": "Información de Contacto",
+            "address": "Dirección",
+            "addressValue": "4321 Calle California, San Francisco, CA 12345",
+            "phone": "Teléfono",
+            "phoneValue": "+1 123 456 1234",
+            "email": "Correo Electrónico",
+            "emailValue": "info@company.com"
+        },
+        "social": {
+            "facebook": "https://facebook.com",
+            "twitter": "https://twitter.com",
+            "youtube": "https://youtube.com"
+        }
     },
     "Footer": {
         "columns": [

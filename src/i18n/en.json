@@ -192,7 +192,35 @@
         "email": "info@company.com",
         "facebook": "fb.com",
         "twitter": "twitter.com",
-        "youtube": "youtube.com"
+        "youtube": "youtube.com",
+        "title": "Contact",
+        "description": "If you have any questions or concerns, feel free to contact us. We are here to help you.",
+        "form": {
+            "namePlaceholder": "Name",
+            "emailPlaceholder": "Email",
+            "messagePlaceholder": "Message",
+            "submitButton": "Send Message"
+        },
+        "validation": {
+            "allFieldsRequired": "All fields are required.",
+            "invalidEmail": "Please enter a valid email address."
+        },
+        "successMessage": "Message sent successfully!",
+        "errorMessage": "Failed to send message. Please try again later.",
+        "info": {
+            "title": "Contact Info",
+            "address": "Address",
+            "addressValue": "4321 California Street, San Francisco, CA 12345",
+            "phone": "Phone",
+            "phoneValue": "+1 123 456 1234",
+            "email": "Email",
+            "emailValue": "info@company.com"
+        },
+        "social": {
+            "facebook": "https://facebook.com",
+            "twitter": "https://twitter.com",
+            "youtube": "https://youtube.com"
+        }
     },
     "Footer": {
         "columns": [
