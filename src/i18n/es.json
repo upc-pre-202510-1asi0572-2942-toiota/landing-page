@@ -202,13 +202,13 @@
         "successMessage": "¡Mensaje enviado con éxito!",
         "errorMessage": "No se pudo enviar el mensaje. Por favor, inténtalo de nuevo más tarde.",
         "info": {
-            "title": "Información de Contacto",
-            "address": "Dirección",
-            "addressValue": "4321 Calle California, San Francisco, CA 12345",
-            "phone": "Teléfono",
-            "phoneValue": "+1 123 456 1234",
-            "email": "Correo Electrónico",
-            "emailValue": "info@company.com"
+            "title": "Contact Info",
+            "address": "Address",
+            "addressValue": "Av.Los Condores 1001, Lima, Peru",
+            "phone": "Phone",
+            "phoneValue": "+51 964131130",
+            "email": "Email",
+            "emailValue": "sandero@ninjacode.com"
         },
         "social": {
             "facebook": "https://facebook.com",
