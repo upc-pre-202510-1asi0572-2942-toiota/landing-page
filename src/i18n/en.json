@@ -107,35 +107,35 @@
         "title": "What Our Clients Say",
         "paragraph": "Our users have experienced significant improvements in their hormonal health thanks to HormonalCare. Here are some testimonials from our satisfied clients.",
         "columns": [
-            {
-                "img": "img/testimonials/01.jpg",
-                "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-                "name": "John Doe"
+                        {
+                "img": "img/testimonials_imgs/01.png",
+                "text": "\"Sometimes I find it hard to follow everything to the letter, but an app that reminds and supports me would be like having constant help. That would give me more confidence in my daily life.\"",
+                "name": "Joaquin Benavides"
             },
             {
-                "img": "img/testimonials/02.jpg",
-                "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-                "name": "Johnathan Doe"
+                "img": "img/testimonials_imgs/02.png",
+                "text": "\"Before, it was complicated to constantly follow up, but now I see how an app could centralize patient data and give us useful alerts. It would be a real change in our practice.\"",
+                "name": "Luis Chinchihualpa"
             },
             {
-                "img": "img/testimonials/03.jpg",
-                "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-                "name": "John Doe"
+                "img": "img/testimonials_imgs/03.png",
+                "text": "\"It made me think about how much time we waste looking for information. If everything were on a single platform, we could act faster and more accurately in each consultation.\"",
+                "name": "Ricardo Duran"
             },
             {
-                "img": "img/testimonials/04.jpg",
-                "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-                "name": "Johnathan Doe"
+                "img": "img/testimonials_imgs/04.png",
+                "text": "\"What I liked the most was imagining the patient educating themselves with digital support. If technology adapts to the pace of the clinic, we all save time and improve quality.\"",
+                "name": "Roxana Podesta"
             },
             {
-                "img": "img/testimonials/05.jpg",
-                "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-                "name": "John Doe"
+                "img": "img/testimonials_imgs/05.png",
+                "text": "\"I always felt like I was handling this alone. Seeing an option that connects with my doctor and gives me clarity at the right moment completely changes how I view my treatment.\"",
+                "name": "Sebastian Chacayan"
             },
             {
-                "img": "img/testimonials/06.jpg",
-                "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-                "name": "Johnathan Doe"
+                "img": "img/testimonials_imgs/06.png",
+                "text": "\"I realized that many times I don't fully understand what to do. A simple guide on my phone could help me avoid mistakes and make everything less stressful.\"",
+                "name": "Yudi Pariona"
             }
         ]
     },
