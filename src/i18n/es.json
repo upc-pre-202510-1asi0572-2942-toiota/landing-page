@@ -219,38 +219,41 @@
     "Footer": {
         "columns": [
             {
-                "title": "Qué hacemos",
+                "title": "HormonalCare",
                 "links": [
-                    { "text": "Características", "url": "/" },
-                    { "text": "Blog", "url": "/" },
-                    { "text": "Seguridad", "url": "/" },
-                    { "text": "Para empresas", "url": "/" }
+                    { "text": "Probar ya", "url": "/" },
+                    { "text": "Caracteristicas", "url": "/" },
+                    { "text": "Precios", "url": "/" },
+                    { "text": "Testimonios", "url": "/" },
+                    { "text": "Servicios externos", "url": "/" }
                 ]
             },
             {
                 "title": "Quiénes somos",
                 "links": [
                     { "text": "Sobre nosotros", "url": "/" },
-                    { "text": "Trabajos", "url": "/" },
-                    { "text": "Centro de marca", "url": "/" },
-                    { "text": "Privacidad", "url": "/" }
+                    { "text": "Conoce al Equipo", "url": "/" },
+                    { "text": "Otros colaboradores", "url": "/" },
+                    { "text": "Videos", "url": "/" }
                 ]
             },
             {
-                "title": "Usa HormonalCare",
+                "title": "Historial de veriones",
                 "links": [
-                    { "text": "Android", "url": "/" },
-                    { "text": "iPhone", "url": "/" },
-                    { "text": "HormonalCare Web", "url": "/" }
+                    { "text": "Open Source", "url": "/" },
+                    { "text": "Aplicaciones Web", "url": "/" },
+                    { "text": "Dispositivos Moviles", "url": "/" },
+                    { "text": "Desarrollo IOT", "url": "/" },
+                    { "text": "Fundamentos de Arquitectura", "url": "/" }
                 ]
             },
             {
-                "title": "¿Necesitas ayuda?",
+                "title": "Centro de ayuda",
                 "links": [
-                    { "text": "Contáctanos", "url": "/" },
-                    { "text": "Centro de ayuda", "url": "/" },
-                    { "text": "Aplicaciones", "url": "/" },
-                    { "text": "Avisos de seguridad", "url": "/" }
+                    { "text": "Preguntas frecuentes", "url": "/" },
+                    { "text": "Deja tu pregunta", "url": "/" },
+                    { "text": "Contacto", "url": "/" },
+                    { "text": "Libro de reclamaciones", "url": "/" }
                 ]
             }
         ],
@@ -262,8 +265,7 @@
             ]
         },
         "social": [
-            { "icon": "fa fa-facebook", "url": "https://facebook.com" },
-            { "icon": "fa fa-twitter", "url": "https://twitter.com" },
+            { "icon": "fa fa-youtube", "url": "https://youtube.com" },
             { "icon": "fa fa-instagram", "url": "https://instagram.com" },
             { "icon": "fa fa-linkedin", "url": "https://linkedin.com" }
         ]

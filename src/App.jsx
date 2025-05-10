@@ -1,13 +1,13 @@
 import React from "react";
-import { Navigation } from "./components/navigation";
-import { Header } from "./components/header";
-import { Features } from "./components/features";
-import { About } from "./components/about";
-import { Pricing } from "./components/pricing";
-import { Testimonials } from "./components/testimonials";
-import { Team } from "./components/Team";
-import { Contact } from "./components/contact";
-import { Footer } from "./components/footer";
+import { Navigation } from "./components/public/navigation";
+import { Header } from "./components/main/header";
+import { Features } from "./components/main/features";
+import { About } from "./components/about/about";
+import { Pricing } from "./components/main/pricing";
+import { Testimonials } from "./components/main/testimonials";
+import { Team } from "./components/about/Team";
+import { Contact } from "./components/help/contact";
+import { Footer } from "./components/public/footer";
 import SmoothScroll from "smooth-scroll";
 import { useTranslation } from 'react-i18next';
 import "./App.css";
@@ -27,9 +27,6 @@ const App = () => {
       <Features data={t('Features', { returnObjects: true })} />
       <Pricing data={t('Pricing', { returnObjects: true })} />
       <Testimonials data={t('Testimonials', { returnObjects: true })} />
-      <About data={t('About', { returnObjects: true })} />
-      <Team data={t('Team', { returnObjects: true })} />
-      <Contact data={t('Contact')} />
       <Footer data={t('Footer', { returnObjects: true })} />
     </div>
   );

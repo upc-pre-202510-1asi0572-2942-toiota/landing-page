@@ -225,38 +225,41 @@
     "Footer": {
         "columns": [
             {
-                "title": "What We Do",
+                "title": "HormonalCare",
                 "links": [
+                    { "text": "Try Now", "url": "/" },
                     { "text": "Features", "url": "/" },
-                    { "text": "Blog", "url": "/" },
-                    { "text": "Security", "url": "/" },
-                    { "text": "For Businesses", "url": "/" }
+                    { "text": "Pricing", "url": "/" },
+                    { "text": "Testimonials", "url": "/" },
+                    { "text": "External Services", "url": "/" }
                 ]
             },
             {
-                "title": "Who We Are",
+                "title": "About Us",
                 "links": [
                     { "text": "About Us", "url": "/" },
-                    { "text": "Jobs", "url": "/" },
-                    { "text": "Brand Center", "url": "/" },
-                    { "text": "Privacy", "url": "/" }
+                    { "text": "Meet the Team", "url": "/" },
+                    { "text": "Other Collaborators", "url": "/" },
+                    { "text": "Videos", "url": "/" }
                 ]
             },
             {
-                "title": "Use HormonalCare",
+                "title": "Version History",
                 "links": [
-                    { "text": "Android", "url": "/" },
-                    { "text": "iPhone", "url": "/" },
-                    { "text": "HormonalCare Web", "url": "/" }
+                    { "text": "Open Source", "url": "/" },
+                    { "text": "Web Applications", "url": "/" },
+                    { "text": "Mobile Devices", "url": "/" },
+                    { "text": "IoT Development", "url": "/" },
+                    { "text": "Architecture Fundamentals", "url": "/" }
                 ]
             },
             {
-                "title": "Need Help?",
+                "title": "Help Center",
                 "links": [
-                    { "text": "Contact Us", "url": "/" },
-                    { "text": "Help Center", "url": "/" },
-                    { "text": "Apps", "url": "/" },
-                    { "text": "Security Notices", "url": "/" }
+                    { "text": "Frequently Asked Questions", "url": "/" },
+                    { "text": "Submit Your Question", "url": "/" },
+                    { "text": "Contact", "url": "/" },
+                    { "text": "Complaints Book", "url": "/" }
                 ]
             }
         ],
@@ -268,8 +271,7 @@
             ]
         },
         "social": [
-            { "icon": "fa fa-facebook", "url": "https://facebook.com" },
-            { "icon": "fa fa-twitter", "url": "https://twitter.com" },
+            { "icon": "fa fa-youtube", "url": "https://youtube.com" },
             { "icon": "fa fa-instagram", "url": "https://instagram.com" },
             { "icon": "fa fa-linkedin", "url": "https://linkedin.com" }
         ]
