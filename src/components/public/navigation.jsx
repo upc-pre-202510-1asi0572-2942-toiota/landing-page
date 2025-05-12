@@ -18,8 +18,13 @@ export const Navigation = () => {
             <span className='icon-bar'></span>
             <span className='icon-bar'></span>
           </button>
-          <a className='navbar-brand page-scroll' href='#page-top'>
-            {t('Navigation.brand', 'HormonalCare')}
+          <a className='navbar-brand page-scroll' href='#page-top' style={{ display: 'flex', alignItems: 'center' }}>
+            <img
+              src='../../../public/img/logo-hormonalcare.png'
+              alt={t('Navigation.brand', 'HormonalCare')}
+              style={{ height: '40px', marginRight: '10px', borderRadius: '15%' }} 
+            />
+            <span>{t('Navigation.brand', 'HormonalCare')}</span>
           </a>
         </div>
 
