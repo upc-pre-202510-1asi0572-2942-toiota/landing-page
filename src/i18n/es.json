@@ -1,76 +1,80 @@
 {
     "Header": {
-        "title": "Bienvenido a HormonalCare",
-        "paragraph": "La plataforma que controla el tratamiento de enfermedades de diabetes."
+        "title": "La plataforma que controla el tratamiento de enfermedades de diabetes.",
+        "paragraph": "HormonalCare simplifica el manejo de la diabetes con monitoreo inteligente, atención virtual y apoyo asistido por IA.",
+        "buttonText": "Comienza ahora",
+        "buttonTryWeb": "Prueba la Web",
+        "buttonTryMobile": "Prueba la App"
     },
     "Features": {
         "title": "Características",
-        "paragraph": "HormonalCare ofrece una variedad de características diseñadas para mejorar tu experiencia de salud hormonal. Desde la mensajería privada hasta soluciones empresariales, tenemos todo lo que necesitas para mantenerte conectado y saludable.",
-        "columns":[
-            {
-                "icon": "fa fa-comments-o",
-                "title": "Soporte 24/7",
-                "text": "Nuestro equipo está disponible en todo momento para resolver tus dudas y brindarte asistencia."
-            },
-            {
-                "icon": "fa fa-bullhorn",
-                "title": "Actualizaciones",
-                "text": "Mantente informado con nuestras últimas noticias y mejoras de la plataforma."
-            },
-            {
-                "icon": "fa fa-group",
-                "title": "Comunidad",
-                "text": "Únete a nuestra comunidad de usuarios y comparte tus experiencias."
-            },
-            {
-                "icon": "fa fa-magic",
-                "title": "Soluciones",
-                "text": "Descubre cómo nuestras herramientas pueden transformar tu experiencia de salud hormonal."
-            }
+        "paragraph": "HormonalCare ofrece una variedad de características diseñadas para mejorar tu experiencia de salud hormonal. Desde el seguimiento hormonal hasta la integración con dispositivos inteligentes, tenemos todo lo que necesitas para mantenerte conectado y saludable.",
+        "columns": [
+        {
+            "icon": "fa fa-history",
+            "title": "Historial Hormonal",
+            "text": "Consulta y gestiona de forma cronológica todos tus registros médicos y hormonales desde una única plataforma."
+        },
+        {
+            "icon": "fa fa-robot",
+            "title": "IA Asistida",
+            "text": "Recibe recomendaciones automatizadas basadas en tus síntomas y análisis clínicos."
+        },
+        {
+            "icon": "fa fa-video-camera",
+            "title": "Consultas Virtuales",
+            "text": "Conéctate con tus especialistas a través de videollamadas seguras y eficaces."
+        },
+        {
+            "icon": "fa fa-microchip",
+            "title": "Dispositivos IoT",
+            "text": "Monitorea el uso de medicamentos como la insulina mediante dispositivos inteligentes conectados."
+        }
         ]
     },
     "Pricing":{
         "title": "Precios",
         "paragraph": "Elige el plan que mejor se adapte a tus necesidades y comienza a disfrutar de los beneficios de HormonalCare. Todos nuestros planes incluyen acceso a todas las funciones y actualizaciones futuras.",
         "columns": [
-        {
+            {
             "plan": "Básico",
-            "price": "9",
+            "price": "0",
             "currency": "$",
             "period": "mes",
             "features": [
-                "10 Usuarios",
-                "2 GB de Almacenamiento",
-                "Soporte por correo electrónico"
+                "Seguimiento de historial médico",
+                "Reuniones virtuales con pacientes (2 al mes)",
+                "Exportación básica de reportes"
             ],
             "buttonText": "Regístrate"
-        },
-        {
-            "plan": "Regular",
-            "price": "29",
+            },
+            {
+            "plan": "Estándar",
+            "price": "24",
             "currency": "$",
             "period": "mes",
             "features": [
-                "50 Usuarios",
-                "10 GB de Almacenamiento",
-                "Soporte prioritario por correo electrónico"
+                "Sesiones virtuales ilimitadas",
+                "Recomendaciones asistidas por IA para pacientes",
+                "Soporte prioritario y chat"
             ],
             "buttonText": "Comenzar"
-        },
-        {
-            "plan": "Premium",
-            "price": "49",
+            },
+            {
+            "plan": "IoT Premium",
+            "price": "59",
             "currency": "$",
             "period": "mes",
             "features": [
-                "Usuarios ilimitados",
-                "100 GB de Almacenamiento",
-                "Soporte por teléfono y correo electrónico",
-                "Dominio personalizado"
+                "Todas las funciones del plan Estándar",
+                "Soporte para dispositivos IoT (dispensador o monitor de insulina)",
+                "Alertas en tiempo real vía dispositivos conectados",
+                "Envío del dispositivo incluido"
             ],
             "buttonText": "Hazte Premium"
-        }
-    ]
+            }
+        ]
+
     } ,
     "Services": {
         "title": "Nuestros Servicios",
@@ -109,32 +113,32 @@
         "columns":[
             {
                 "img": "img/testimonials_imgs/01.png",
-                "text": "\"A veces me cuesta seguir todo al pie de la letra, pero una app que me recuerde y acompañe sería como tener ayuda constante. Eso me daría más confianza en el día a día.\"",
+                "text": "\"A veces me cuesta seguir todo al pie de la letra, pero una app que me recuerde y apoye sería como tener ayuda constante.\"",
                 "name": "Joaquin Benavides"
             },
             {
                 "img": "img/testimonials_imgs/02.png",
-                "text": "\"Antes era complicado hacer seguimiento constante, pero ahora veo cómo una app podría centralizar datos del paciente y darnos alertas útiles. Sería un cambio real en nuestra práctica.\"",
+                "text": "\"Antes era complicado hacer seguimiento constante, pero ahora veo cómo una app podría centralizar datos del paciente y darnos alertas útiles para mejorar.\"",
                 "name": "Luis Chinchihualpa"
             },
             {
                 "img": "img/testimonials_imgs/03.png",
-                "text": "\"Me hizo pensar en cuánto tiempo perdemos buscando información. Si todo estuviera en una sola plataforma, podríamos actuar más rápido y con más precisión en cada consulta.\"",
+                "text": "\"Me hizo pensar en cuánto tiempo perdemos buscando información. Si todo estuviera en una sola plataforma, podríamos actuar más rápido y con más precisión.\"",
                 "name": "Ricardo Duran"
             },
             {
                 "img": "img/testimonials_imgs/04.png",
-                "text": "\"Lo que más me gustó fue imaginar al paciente educándose solo con apoyo digital. Si la tecnología se adapta al ritmo del consultorio, todos ganamos tiempo y calidad.\"",
+                "text": "\"Lo que más me gustó fue imaginar al paciente educándose solo con apoyo digital. Si la tecnología se adapta al ritmo del consultorio, ganamos calidad.\"",
                 "name": "Roxana Podesta"
             },
             {
                 "img": "img/testimonials_imgs/05.png",
-                "text": "\"Siempre sentí que manejo esto solo. Ver una opción que conecte con mi doctor y me dé claridad en el momento justo, cambia completamente cómo veo mi tratamiento.\"",
+                "text": "\"Siempre sentí que manejo esto solo. Ver una opción que conecte con mi doctor y me dé claridad en el momento justo cambia mi tratamiento.\"",
                 "name": "Sebastian Chacayan"
             },
             {
                 "img": "img/testimonials_imgs/06.png",
-                "text": "\"Me di cuenta de que muchas veces no entiendo bien qué hacer. Una guía sencilla en el celular podría evitarme errores y hacer que todo sea menos estresante.\"",
+                "text": "\"Me di cuenta de que muchas veces no entiendo bien qué hacer. Una guía sencilla en el celular podría evitarme errores y hacer todo menos estresante.\"",
                 "name": "Yudi Pariona"
             }
         ]
@@ -225,7 +229,7 @@
                     { "text": "Caracteristicas", "url": "/" },
                     { "text": "Precios", "url": "/" },
                     { "text": "Testimonios", "url": "/" },
-                    { "text": "Servicios externos", "url": "/" }
+                    { "text": "Videos sobre", "url": "/" }
                 ]
             },
             {
@@ -280,5 +284,11 @@
             "team": "Equipo",
             "contact": "Contacto"
         }
+    },
+    "VideosAbout": {
+        "title": "Videos Sobre Nosotros",
+        "paragraph": "Conoce más sobre nuestro producto y equipo a través de estos videos.",
+        "videoProductTitle": "Video Sobre el Producto",
+        "videoTeamTitle": "Video Sobre el Equipo"
     }
 }

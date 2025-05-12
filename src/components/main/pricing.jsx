@@ -9,6 +9,9 @@ export const Pricing = () => {
         <div className="section-title">
           <h2>{t('Pricing.title')}</h2>
         </div>
+        <div className="section-paragraph">
+          <p>{t('Pricing.paragraph')}</p>
+        </div>
         <div className="row">
           {t('Pricing.columns', { returnObjects: true }).map((plan, i) => (
             <div key={plan.plan + i} className="col-md-4">

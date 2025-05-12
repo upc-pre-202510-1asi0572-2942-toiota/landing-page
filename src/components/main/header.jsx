@@ -21,7 +21,19 @@ export const Header = () => {
                   href='#features'
                   className='btn btn-custom btn-lg page-scroll'
                 >
-                  {t('Header.buttonText', 'Learn More')}
+                  {t('Header.buttonText')}
+                </a>{' '}
+                <a
+                  href='#'
+                  className='btn btn-custom btn-lg page-scroll'
+                >
+                  {t('Header.buttonTryWeb')}
+                </a>{' '}
+                <a
+                  href='#'
+                  className='btn btn-custom btn-lg page-scroll'
+                >
+                  {t('Header.buttonTryMobile')}
                 </a>{' '}
               </div>
             </div>

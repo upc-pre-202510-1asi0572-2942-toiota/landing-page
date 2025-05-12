@@ -1,0 +1,47 @@
+.videos-about-section {
+  padding: 60px 0;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+.videos-about-section .section-title h2 {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.videos-about-section .section-paragraph p {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 40px;
+}
+
+.videos-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.video-item {
+  flex: 1 1 45%;
+  max-width: 45%;
+  background: #fff;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.video-item h3 {
+  font-size: 20px;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+@media (max-width: 768px) {
+  .video-item {
+    flex: 1 1 100%;
+    max-width: 100%;
+  }
+}

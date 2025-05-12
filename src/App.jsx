@@ -11,6 +11,7 @@ import { Footer } from "./components/public/footer";
 import SmoothScroll from "smooth-scroll";
 import { useTranslation } from 'react-i18next';
 import "./App.css";
+import { VideosAbout } from "./components/main/videosabout";
 
 export const scroll = new SmoothScroll('a[href*="#"]', {
   speed: 1000,
@@ -27,6 +28,7 @@ const App = () => {
       <Features data={t('Features', { returnObjects: true })} />
       <Pricing data={t('Pricing', { returnObjects: true })} />
       <Testimonials data={t('Testimonials', { returnObjects: true })} />
+      <VideosAbout data={t('VideosAbout', { returnObjects: true })} />
       <Footer data={t('Footer', { returnObjects: true })} />
     </div>
   );

@@ -1,32 +1,35 @@
 {
     "Header": {
-        "title": "Welcome to HormonalCare",
-        "paragraph": "The platform that manages the treatment of diabetes diseases."
+        "title": "The platform that manages the treatment of diabetes diseases.",
+        "paragraph": "HormonalCare simplifies diabetes management through smart monitoring, virtual care, and AI-driven support.",
+        "buttonText": "Learn More",
+        "buttonTryWeb": "Try Web",
+        "buttonTryMobile": "Try Mobile"
     },
     "Features": {
         "title": "Features",
-        "paragraph": "HormonalCare offers a variety of features designed to enhance your hormonal health experience. From private messaging to business solutions, we have everything you need to stay connected and healthy.",
+        "paragraph": "HormonalCare offers a variety of features designed to improve your hormonal health experience. From hormone tracking to smart device integration, we provide everything you need to stay connected and healthy.",
         "columns": [
-            {
-                "icon": "fa fa-comments-o",
-                "title": "24/7 Support",
-                "text": "Our team is available at all times to answer your questions and provide assistance."
-            },
-            {
-                "icon": "fa fa-bullhorn",
-                "title": "Updates",
-                "text": "Stay informed with our latest news and platform improvements."
-            },
-            {
-                "icon": "fa fa-group",
-                "title": "Community",
-                "text": "Join our user community and share your experiences."
-            },
-            {
-                "icon": "fa fa-magic",
-                "title": "Solutions",
-                "text": "Discover how our tools can transform your hormonal health experience."
-            }
+        {
+            "icon": "fa fa-history",
+            "title": "Hormonal History",
+            "text": "View and manage all your medical and hormonal records chronologically from a single platform."
+        },
+        {
+            "icon": "fa fa-robot",
+            "title": "AI Assistance",
+            "text": "Receive automated recommendations based on your symptoms and lab results."
+        },
+        {
+            "icon": "fa fa-video-camera",
+            "title": "Virtual Consultations",
+            "text": "Connect with your specialists through secure and efficient video calls."
+        },
+        {
+            "icon": "fa fa-microchip",
+            "title": "IoT Devices",
+            "text": "Monitor medication usage such as insulin through connected smart devices."
+        }
         ]
     },
     "Pricing": {
@@ -34,43 +37,44 @@
         "paragraph": "Choose the plan that best suits your needs and start enjoying the benefits of HormonalCare. All our plans include access to all features and future updates.",
         "columns": [
             {
-                "plan": "Basic",
-                "price": "9",
-                "currency": "$",
-                "period": "month",
-                "features": [
-                    "10 Users",
-                    "2 GB Storage",
-                    "Email Support"
-                ],
-                "buttonText": "Sign Up"
+            "plan": "Basic",
+            "price": "0",
+            "currency": "$",
+            "period": "month",
+            "features": [
+                "Medical history tracking",
+                "Virtual meetings with patients (limited to 2/month)",
+                "Basic reports export"
+            ],
+            "buttonText": "Sign Up"
             },
             {
-                "plan": "Regular",
-                "price": "29",
-                "currency": "$",
-                "period": "month",
-                "features": [
-                    "50 Users",
-                    "10 GB Storage",
-                    "Priority Email Support"
-                ],
-                "buttonText": "Get Started"
+            "plan": "Standard",
+            "price": "24",
+            "currency": "$",
+            "period": "month",
+            "features": [
+                "Unlimited virtual sessions",
+                "Assisted AI recommendations for patients",
+                "Priority support and chat"
+            ],
+            "buttonText": "Get Started"
             },
             {
-                "plan": "Premium",
-                "price": "49",
-                "currency": "$",
-                "period": "month",
-                "features": [
-                    "Unlimited Users",
-                    "100 GB Storage",
-                    "Phone and Email Support",
-                    "Custom Domain"
-                ],
-                "buttonText": "Go Premium"
+            "plan": "IoT Premium",
+            "price": "59",
+            "currency": "$",
+            "period": "month",
+            "features": [
+                "All Standard features",
+                "IoT device support (insulin dispenser or monitor)",
+                "Real-time alerts via connected devices",
+                "Device shipping included"
+            ],
+            "buttonText": "Go Premium"
             }
         ]
+
     },
     "Services": {
         "title": "Our Services",
@@ -109,7 +113,7 @@
         "columns": [
                         {
                 "img": "img/testimonials_imgs/01.png",
-                "text": "\"Sometimes I find it hard to follow everything to the letter, but an app that reminds and supports me would be like having constant help. That would give me more confidence in my daily life.\"",
+                "text": "\"Sometimes I find it hard to follow everything to the letter, but an app that reminds and supports me would be like having constant help. That would give me more confidence in my life.\"",
                 "name": "Joaquin Benavides"
             },
             {
@@ -231,7 +235,7 @@
                     { "text": "Features", "url": "/" },
                     { "text": "Pricing", "url": "/" },
                     { "text": "Testimonials", "url": "/" },
-                    { "text": "External Services", "url": "/" }
+                    { "text": "Videos about", "url": "/" }
                 ]
             },
             {
@@ -286,5 +290,11 @@
             "team": "Team",
             "contact": "Contact"
         }
+    },
+    "VideosAbout": {
+        "title": "Videos About Us",
+        "paragraph": "Learn more about our product and team through these videos.",
+        "videoProductTitle": "Video About the Product",
+        "videoTeamTitle": "Video About the Team"
     }
 }
