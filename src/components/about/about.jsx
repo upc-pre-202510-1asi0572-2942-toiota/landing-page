@@ -8,7 +8,7 @@ export const About = () => {
       <div className='container'>
         <div className='row'>
           <div className='col-xs-12 col-md-6'>
-            <img src='../../../public/img/logo-toiota.png' className='img-responsive' alt='' />
+            <img src='https://github.com/upc-pre-202510-1asi0572-2942-toiota/Landing-Page/blob/main/public/img/logo-toiota.png?raw=true' className='img-responsive' alt='' />
           </div>
           <div className='col-xs-12 col-md-6'>
             <div className='about-text'>

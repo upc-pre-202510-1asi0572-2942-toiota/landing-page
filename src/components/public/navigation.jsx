@@ -19,7 +19,7 @@ export const Navigation = () => {
             <span className='icon-bar'></span>
           </button>          <a className='navbar-brand page-scroll' href='#header' style={{ display: 'flex', alignItems: 'center' }}>
             <img
-              src='../../../public/img/logo-hormonalcare.png'
+              src='https://github.com/upc-pre-202510-1asi0572-2942-toiota/Landing-Page/blob/main/public/img/logo-hormonalcare.png?raw=true'
               alt={t('Navigation.brand', 'HormonalCare')}
               style={{ height: '40px', marginRight: '10px', borderRadius: '15%' }} 
             />
