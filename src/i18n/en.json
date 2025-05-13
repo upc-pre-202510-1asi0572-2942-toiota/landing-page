@@ -2,13 +2,14 @@
     "Header": {
         "title": "The platform that manages the treatment of diabetes diseases.",
         "paragraph": "HormonalCare simplifies diabetes management through smart monitoring, virtual care, and AI-driven support.",
-        "buttonText": "Learn More",
+        "buttonText": "Try It Now",
         "buttonTryWeb": "Try Web",
         "buttonTryMobile": "Try Mobile"
-    },
-    "Features": {
+    },    "Features": {
         "title": "Features",
-        "paragraph": "HormonalCare offers a variety of features designed to improve your hormonal health experience. From hormone tracking to smart device integration, we provide everything you need to stay connected and healthy.",
+        "paragraph": "HormonalCare offers a comprehensive platform designed to revolutionize diabetes management through innovative technology and user-centered design.",
+        "keyFeaturesTitle": "Key Features",
+        "descriptionTitle": "What Makes HormonalCare Unique",
         "columns": [
         {
             "icon": "fa fa-history",
@@ -16,7 +17,7 @@
             "text": "View and manage all your medical and hormonal records chronologically from a single platform."
         },
         {
-            "icon": "fa fa-robot",
+            "icon": "fa fa-lightbulb-o",
             "title": "AI Assistance",
             "text": "Receive automated recommendations based on your symptoms and lab results."
         },
@@ -26,10 +27,48 @@
             "text": "Connect with your specialists through secure and efficient video calls."
         },
         {
-            "icon": "fa fa-microchip",
+            "icon": "fa fa-signal",
             "title": "IoT Devices",
             "text": "Monitor medication usage such as insulin through connected smart devices."
+        },
+        {
+            "icon": "fa fa-calendar",
+            "title": "Smart Calendar",
+            "text": "Manage appointments and medication schedules in one intuitive interface."
+        },
+        {
+            "icon": "fa fa-medkit",
+            "title": "Medical Records",
+            "text": "Access your complete medical history, test results, and treatment plans."
+        },
+        {
+            "icon": "fa fa-bell",
+            "title": "Smart Alerts",
+            "text": "Receive timely notifications for medications, appointments, and critical health changes."
+        },
+        {
+            "icon": "fa fa-lock",
+            "title": "Secure Platform",
+            "text": "Your health data is protected with end-to-end encryption and complies with healthcare regulations."
         }
+        ],
+        "descriptions": [
+            {
+                "title": "For Patients",
+                "text": "Access your complete medical history, schedule appointments with specialists, upload lab results, receive medication reminders, and monitor your health in real-time with IoT devices."
+            },
+            {
+                "title": "For Healthcare Providers",
+                "text": "Manage patient schedules efficiently, access detailed medical histories, communicate through secure messaging, conduct virtual consultations, and monitor patients' real-time health data through connected devices."
+            },
+            {
+                "title": "Smart Monitoring Technology",
+                "text": "Our IoT devices continuously measure glucose levels, vital signs, and can calculate and administer insulin doses automatically, with all data synchronized to our mobile app and web platform for remote monitoring."
+            },
+            {
+                "title": "Personalized Care",
+                "text": "Healthcare providers can customize alert thresholds for each patient, transfer patients between specialists, validate automated calculations, and maintain comprehensive treatment records all within our secure platform."
+            }
         ]
     },
     "Pricing": {

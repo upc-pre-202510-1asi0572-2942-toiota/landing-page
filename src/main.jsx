@@ -11,6 +11,7 @@ import '../public/css/nivo-lightbox/nivo-lightbox.css';
 import '../public/css/nivo-lightbox/default.css'; 
 import '../public/fonts/font-awesome/css/font-awesome.css';
 import '../public/fonts/font-awesome/css/font-awesome.min.css';
+import '../public/css/features-addition.css';
 import * as serviceWorker from './serviceWorker';
 
 createRoot(document.getElementById('root')).render(

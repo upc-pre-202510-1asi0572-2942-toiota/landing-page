@@ -122,6 +122,12 @@ hr {
 .navbar-toggle {
 	border-radius: 0;
 }
+.navbar-default .navbar-toggle {
+	border-color: #FFFFFF;
+}
+.navbar-default .navbar-toggle .icon-bar {
+	background-color: #FFFFFF;
+}
 .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
 	background-color: #fff;
 	border-color: #40535B;

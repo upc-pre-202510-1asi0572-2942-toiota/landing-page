@@ -1,0 +1,40 @@
+/* Additional styles for the expanded features section */
+#features .section-title p {
+    font-size: 18px;
+    margin-bottom: 40px;
+    color: #555;
+}
+
+#features .mt-5 {
+    margin-top: 50px;
+}
+
+#features .mb-4 {
+    margin-bottom: 20px;
+}
+
+#features .feature-description {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 5px 15px rgba(0,0,0,0.05);
+    height: 100%;
+    min-height: 180px;
+    transition: all 0.3s ease;
+}
+
+#features .feature-description:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 10px 20px rgba(0,0,0,0.1);
+}
+
+#features .feature-description h4 {
+    color: #40535B;
+    margin-bottom: 15px;
+}
+
+#features .feature-description p {
+    color: #666;
+    font-size: 14px;
+    line-height: 1.6;
+}

@@ -1,22 +1,23 @@
 {
     "Header": {
-        "title": "La plataforma que controla el tratamiento de enfermedades de diabetes.",
+        "title": "Controla el tratamiento de enfermedades de diabetes.",
         "paragraph": "HormonalCare simplifica el manejo de la diabetes con monitoreo inteligente, atención virtual y apoyo asistido por IA.",
         "buttonText": "Comienza ahora",
         "buttonTryWeb": "Prueba la Web",
         "buttonTryMobile": "Prueba la App"
-    },
-    "Features": {
+    },    "Features": {
         "title": "Características",
-        "paragraph": "HormonalCare ofrece una variedad de características diseñadas para mejorar tu experiencia de salud hormonal. Desde el seguimiento hormonal hasta la integración con dispositivos inteligentes, tenemos todo lo que necesitas para mantenerte conectado y saludable.",
+        "paragraph": "HormonalCare ofrece una plataforma integral diseñada para revolucionar el manejo de la diabetes mediante tecnología innovadora y un diseño centrado en el usuario.",
+        "keyFeaturesTitle": "Características Principales",
+        "descriptionTitle": "¿Qué hace único a HormonalCare?",
         "columns": [
         {
             "icon": "fa fa-history",
             "title": "Historial Hormonal",
-            "text": "Consulta y gestiona de forma cronológica todos tus registros médicos y hormonales desde una única plataforma."
+            "text": "Consulta y gestiona de forma cronológica todos tus registros médicos desde una única plataforma."
         },
         {
-            "icon": "fa fa-robot",
+            "icon": "fa fa-lightbulb-o",
             "title": "IA Asistida",
             "text": "Recibe recomendaciones automatizadas basadas en tus síntomas y análisis clínicos."
         },
@@ -26,10 +27,48 @@
             "text": "Conéctate con tus especialistas a través de videollamadas seguras y eficaces."
         },
         {
-            "icon": "fa fa-microchip",
+            "icon": "fa fa-signal",
             "title": "Dispositivos IoT",
             "text": "Monitorea el uso de medicamentos como la insulina mediante dispositivos inteligentes conectados."
+        },
+        {
+            "icon": "fa fa-calendar",
+            "title": "Calendario Inteligente",
+            "text": "Gestiona citas y horarios de medicación en una interfaz intuitiva."
+        },
+        {
+            "icon": "fa fa-medkit",
+            "title": "Registros Médicos",
+            "text": "Accede a tu historial médico completo, resultados de pruebas y planes de tratamiento."
+        },
+        {
+            "icon": "fa fa-bell",
+            "title": "Alertas Inteligentes",
+            "text": "Recibe notificaciones oportunas para medicamentos, citas y cambios críticos en tu salud."
+        },
+        {
+            "icon": "fa fa-lock",
+            "title": "Plataforma Segura",
+            "text": "Tus datos de salud están protegidos con cifrado de extremo a extremo y cumplen con las regulaciones sanitarias."
         }
+        ],
+        "descriptions": [
+            {
+                "title": "Para Pacientes",
+                "text": "Accede a tu historial médico completo, programa citas con especialistas, carga resultados de laboratorio, recibe recordatorios de medicación y monitorea tu salud en tiempo real con dispositivos IoT. Nuestro plan premium incluye monitoreo y administración automática de insulina."
+            },
+            {
+                "title": "Para Profesionales de la Salud",
+                "text": "Gestiona eficientemente los horarios de pacientes, accede a historiales médicos detallados, comunícate a través de mensajería segura, realiza consultas virtuales y monitorea datos de salud de pacientes en tiempo real a través de dispositivos conectados."
+            },
+            {
+                "title": "Tecnología de Monitoreo Inteligente",
+                "text": "Nuestros dispositivos IoT miden continuamente los niveles de glucosa, signos vitales y pueden calcular y administrar dosis de insulina automáticamente, con todos los datos sincronizados a nuestra aplicación móvil y plataforma web para monitoreo remoto."
+            },
+            {
+                "title": "Atención Personalizada",
+                "text": "Los profesionales de la salud pueden personalizar los umbrales de alerta para cada paciente, transferir pacientes entre especialistas, validar cálculos automatizados y mantener registros completos de tratamiento, todo dentro de nuestra plataforma segura."
+            }
         ]
     },
     "Pricing":{
