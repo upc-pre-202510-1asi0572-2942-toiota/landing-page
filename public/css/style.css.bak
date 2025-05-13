@@ -1,4 +1,4 @@
-﻿body, html {
+body, html {
 	font-family: 'Montserrat', sans-serif;
 	text-rendering: optimizeLegibility !important;
 	-webkit-font-smoothing: antialiased !important;
@@ -537,7 +537,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 /* Contact Section */
 #contact {
 	padding: 100px 0 60px 0;
-	background: #6A828D;
+	background: #40535B;
 	color: rgba(255,255,255,.75);
 }
 #contact .section-title {
@@ -851,7 +851,8 @@ footer {
     color: #B9CCD8;
   }
   
-  /* Responsive adjustments */  @media (max-width: 768px) {
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
     .footer-columns {
       flex-direction: column;
       gap: 24px;
@@ -866,12 +867,4 @@ footer {
     .social-links {
       margin-top: 10px;
     }
-  }
-  
-  footer select.language-selector {
-    color: #000000;
-    margin-left: 10px;
-    border-radius: 5px;
-    padding: 5px;
-    background-color: #FFFFFF;
   }

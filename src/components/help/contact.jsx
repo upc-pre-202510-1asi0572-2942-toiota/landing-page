@@ -146,7 +146,7 @@ export const Contact = () => {
               </p>
             </div>
           </div>
-          <div className='col-md-12'>
+          {/* <div className='col-md-12'>
             <div className='row'>
               <div className='social'>
                 <ul>
@@ -166,9 +166,9 @@ export const Contact = () => {
                     </a>
                   </li>
                 </ul>
-              </div>
+              </div> 
             </div>
-          </div>
+          </div>*/}
         </div>
       </div>
     </div>

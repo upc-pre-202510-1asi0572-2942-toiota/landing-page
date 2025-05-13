@@ -32,19 +32,14 @@ export const Footer = () => {
             </div>
 
             <div className="social-links">
-              {t('Footer.social', { returnObjects: true }).map((social, index) => (
+              {/* {t('Footer.social', { returnObjects: true }).map((social, index) => (
                 <a key={index} href={social.url} target="_blank" rel="noopener noreferrer">
                   <i className={social.icon}></i>
                 </a>
-              ))}
-              <select
+              ))} */}              <select
                 onChange={(e) => changeLanguage(e.target.value)}
                 defaultValue="en"
-                style={{
-                  marginLeft: '10px',
-                  borderRadius: '5px',
-                  padding: '5px',
-                }}
+                className="language-selector"
               >
                 <option value="en">English</option>
                 <option value="es">Español</option>

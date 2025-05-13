@@ -7,34 +7,37 @@ export const Header = () => {
   return (
     <header id='header'>
       <div className='intro'>
-        <ParticlesBg type="circle" bg={{zIndex: 0, position:"absolute", top:0}} />
-        <div className='overlay'>
+        <div className="particles-container">
+          <ParticlesBg type="circle" bg={{zIndex: 1, position:"absolute", top:0, left:0, width:"100%", height:"100%"}} num={8} />
+        </div><div className='overlay'>
           <div className='container'>
-            <div className='row'>
-              <div className='col-md-8 col-md-offset-2 intro-text'>
+            <div className='mastermind-header'>
+              <div className='mastermind-content'>
                 <h1>
                   {t('Header.title')}
                   <span></span>
                 </h1>
                 <p>{t('Header.paragraph')}</p>
-                <a
-                  href='#features'
-                  className='btn btn-custom btn-lg page-scroll'
-                >
-                  {t('Header.buttonText')}
-                </a>{' '}
-                <a
-                  href='#'
-                  className='btn btn-custom btn-lg page-scroll'
-                >
-                  {t('Header.buttonTryWeb')}
-                </a>{' '}
-                <a
-                  href='#'
-                  className='btn btn-custom btn-lg page-scroll'
-                >
-                  {t('Header.buttonTryMobile')}
-                </a>{' '}
+                <div className='mastermind-buttons'>
+                  <a
+                    href='#features'
+                    className='btn btn-custom btn-lg page-scroll'
+                  >
+                    {t('Header.buttonText')}
+                  </a>
+                  {/* <a
+                    href='#'
+                    className='btn btn-custom btn-lg page-scroll'
+                  >
+                    {t('Header.buttonTryWeb')}
+                  </a>
+                  <a
+                    href='#'
+                    className='btn btn-custom btn-lg page-scroll'
+                  >
+                    {t('Header.buttonTryMobile')}
+                  </a> */}
+                </div>
               </div>
             </div>
           </div>
