@@ -29,7 +29,7 @@ export const Header = () => {
                 </div>
               </div>
               <div className='header-image'>
-                <img src='/img/phono_hormonalcare.jpg' alt='Phone preview' style={{width: '100%', maxWidth: '260px', borderRadius: '24px', boxShadow: '0 8px 32px rgba(0,0,0,0.15)'}} />
+                <img src='https://github.com/upc-pre-202510-1asi0572-2942-toiota/Landing-Page/blob/main/public/img/phono_hormonalcare.jpg?raw=true' alt='Phone preview' style={{width: '100%', maxWidth: '260px', borderRadius: '24px', boxShadow: '0 8px 32px rgba(0,0,0,0.15)'}} />
               </div>
             </div>
           </div>
