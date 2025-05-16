@@ -881,3 +881,45 @@ footer {
     padding: 5px;
     background-color: #FFFFFF;
   }
+
+.header-flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 32px;
+}
+.mastermind-content {
+  width: 70%;
+  max-width: 800px;
+  padding: 40px 0;
+  text-align: left;
+  margin-left: 15px;
+  position: relative;
+  z-index: 20;
+}
+.header-image {
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+}
+@media (max-width: 900px) {
+  .header-flex {
+    flex-direction: column;
+    gap: 16px;
+  }
+  .mastermind-content, .header-image {
+    width: 100%;
+    margin-left: 0;
+    text-align: center;
+    justify-content: center;
+  }
+  .header-image {
+    margin-top: 24px;
+  }
+  .header-image img {
+    max-width: 220px;
+    margin: 0 auto;
+  }
+}

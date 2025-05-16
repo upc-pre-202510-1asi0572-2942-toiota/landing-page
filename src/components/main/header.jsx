@@ -9,9 +9,10 @@ export const Header = () => {
       <div className='intro'>
         <div className="particles-container">
           <ParticlesBg type="circle" bg={{zIndex: 1, position:"absolute", top:0, left:0, width:"100%", height:"100%"}} num={8} />
-        </div><div className='overlay'>
+        </div>
+        <div className='overlay'>
           <div className='container'>
-            <div className='mastermind-header'>
+            <div className='mastermind-header header-flex'>
               <div className='mastermind-content'>
                 <h1>
                   {t('Header.title')}
@@ -25,19 +26,10 @@ export const Header = () => {
                   >
                     {t('Header.buttonText')}
                   </a>
-                  {/* <a
-                    href='#'
-                    className='btn btn-custom btn-lg page-scroll'
-                  >
-                    {t('Header.buttonTryWeb')}
-                  </a>
-                  <a
-                    href='#'
-                    className='btn btn-custom btn-lg page-scroll'
-                  >
-                    {t('Header.buttonTryMobile')}
-                  </a> */}
                 </div>
+              </div>
+              <div className='header-image'>
+                <img src='/img/phono_hormonalcare.jpg' alt='Phone preview' style={{width: '100%', maxWidth: '260px', borderRadius: '24px', boxShadow: '0 8px 32px rgba(0,0,0,0.15)'}} />
               </div>
             </div>
           </div>
