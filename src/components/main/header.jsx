@@ -21,8 +21,10 @@ export const Header = () => {
                 <p>{t('Header.paragraph')}</p>
                 <div className='mastermind-buttons'>
                   <a
-                    href='#features'
+                    href='https://hormonalcare-frontend.onrender.com/selectRole'
                     className='btn btn-custom btn-lg page-scroll'
+                    target='_blank'
+                    rel='noopener noreferrer'
                   >
                     {t('Header.buttonText')}
                   </a>
