@@ -1,5 +1,4 @@
 import { useTranslation } from 'react-i18next';
-import ParticlesBg from "particles-bg";
 
 export const Header = () => {
   const { t } = useTranslation();
@@ -7,9 +6,16 @@ export const Header = () => {
   return (
     <header id='header'>
       <div className='intro'>
-        <div className="particles-container">
-          <ParticlesBg type="circle" bg={{zIndex: 1, position:"absolute", top:0, left:0, width:"100%", height:"100%"}} num={8} />
-        </div>
+        <span className="bubble bubble1"></span>
+        <span className="bubble bubble2"></span>
+        <span className="bubble bubble3"></span>
+        <span className="bubble bubble4"></span>
+        <span className="bubble bubble5"></span>
+        <span className="bubble bubble6"></span>
+        <span className="bubble bubble7"></span>
+        <span className="bubble bubble8"></span>
+        <span className="bubble bubble9"></span>
+        <span className="bubble bubble10"></span>
         <div className='overlay'>
           <div className='container'>
             <div className='mastermind-header header-flex'>
@@ -31,9 +37,13 @@ export const Header = () => {
                 </div>
               </div>
               <div className='header-image'>
-                <img src='https://github.com/upc-pre-202510-1asi0572-2942-toiota/Landing-Page/blob/main/public/img/phono_hormonalcare.jpg?raw=true' alt='Phone preview' style={{width: '100%', maxWidth: '260px', borderRadius: '24px', boxShadow: '0 8px 32px rgba(0,0,0,0.15)'}} />
+                <img src='../../../public/img/phono_hormonalcare.png' alt='Phone preview' style={{width: '100%', maxWidth: '220px', borderRadius: '39px', boxShadow: '0 8px 32px rgba(0,0,0,0.15)'}} />
               </div>
             </div>
+          </div>
+          {/* Flecha animada para indicar scroll */}
+          <div className="scroll-indicator">
+            <span className="arrow-down"></span>
           </div>
         </div>
       </div>
