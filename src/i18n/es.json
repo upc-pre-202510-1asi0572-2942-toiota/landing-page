@@ -264,11 +264,11 @@
             {
                 "title": "HormonalCare",
                 "links": [
-                    { "text": "Probar ya", "url": "/" },
-                    { "text": "Caracteristicas", "url": "/" },
-                    { "text": "Precios", "url": "/" },
-                    { "text": "Testimonios", "url": "/" },
-                    { "text": "Videos sobre", "url": "/" }
+                    { "text": "Probar ya", "url": "#header" },
+                    { "text": "Caracteristicas", "url": "#features" },
+                    { "text": "Precios", "url": "#pricing" },
+                    { "text": "Testimonios", "url": "#testimonials" },
+                    { "text": "Videos sobre", "url": "#videosabout" }
                 ]
             },
             {
@@ -283,11 +283,11 @@
             {
                 "title": "Historial de veriones",
                 "links": [
-                    { "text": "Open Source", "url": "/" },
-                    { "text": "Aplicaciones Web", "url": "/" },
-                    { "text": "Dispositivos Moviles", "url": "/" },
-                    { "text": "Desarrollo IOT", "url": "/" },
-                    { "text": "Fundamentos de Arquitectura", "url": "/" }
+                    { "text": "Open Source", "url": "https://upc-open-source-ninja-code.github.io/Landing-Page/" },
+                    { "text": "Aplicaciones Web", "url": "https://upc-aplicaciones-web-grupo-4.github.io/LandingPageAppWeb/" },
+                    { "text": "Dispositivos Moviles", "url": "https://upc-sw63-aplicaciones-moviles-ninjacode.github.io/hormonal-landing-page/" },
+                    { "text": "Desarrollo IOT", "url": "#" },
+                    { "text": "Fundamentos de Arquitectura", "url": "#" }
                 ]
             },
             {

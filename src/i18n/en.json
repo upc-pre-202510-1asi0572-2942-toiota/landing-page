@@ -289,11 +289,11 @@
             {
                 "title": "Version History",
                 "links": [
-                    { "text": "Open Source", "url": "#opensource" },
-                    { "text": "Web Applications", "url": "#webapplications" },
-                    { "text": "Mobile Devices", "url": "#mobiledevices" },
-                    { "text": "IoT Development", "url": "#iotdevelopment" },
-                    { "text": "Architecture Fundamentals", "url": "#architecturefundamentals" }
+                    { "text": "Open Source", "url": "https://upc-open-source-ninja-code.github.io/Landing-Page/" },
+                    { "text": "Aplicaciones Web", "url": "https://upc-aplicaciones-web-grupo-4.github.io/LandingPageAppWeb/" },
+                    { "text": "Dispositivos Moviles", "url": "https://upc-sw63-aplicaciones-moviles-ninjacode.github.io/hormonal-landing-page/" },
+                    { "text": "Desarrollo IOT", "url": "#" },
+                    { "text": "Fundamentos de Arquitectura", "url": "#" }
                 ]
             },
             {
