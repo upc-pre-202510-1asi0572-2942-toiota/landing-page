@@ -7,6 +7,9 @@ export const Footer = () => {
     i18n.changeLanguage(language);
   };
 
+  // Helper para saber si el link es interno (ancla)
+  const isInternalSection = (url) => url.startsWith('#');
+
   return (
     <footer>
       <div className="main-footer">
@@ -18,7 +21,13 @@ export const Footer = () => {
                 <ul>
                   {column.links.map((link, linkIndex) => (
                     <li key={linkIndex}>
-                      <a href={link.url}>{link.text}</a>
+                      {isInternalSection(link.url) ? (
+                        <a href={link.url} className="page-scroll">
+                          {link.text}
+                        </a>
+                      ) : (
+                        <a href={link.url}>{link.text}</a>
+                      )}
                     </li>
                   ))}
                 </ul>
@@ -36,7 +45,8 @@ export const Footer = () => {
                 <a key={index} href={social.url} target="_blank" rel="noopener noreferrer">
                   <i className={social.icon}></i>
                 </a>
-              ))} */}              <select
+              ))} */}
+              <select
                 onChange={(e) => changeLanguage(e.target.value)}
                 defaultValue="en"
                 className="language-selector"

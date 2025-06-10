@@ -270,39 +270,39 @@
             {
                 "title": "HormonalCare",
                 "links": [
-                    { "text": "Try Now", "url": "/" },
-                    { "text": "Features", "url": "/" },
-                    { "text": "Pricing", "url": "/" },
-                    { "text": "Testimonials", "url": "/" },
-                    { "text": "Videos about", "url": "/" }
+                    { "text": "Try Now", "url": "#header" },
+                    { "text": "Features", "url": "#features" },
+                    { "text": "Pricing", "url": "#pricing" },
+                    { "text": "Testimonials", "url": "#testimonials" },
+                    { "text": "Videos about", "url": "#videosabout" }
                 ]
             },
             {
                 "title": "About Us",
                 "links": [
-                    { "text": "About Us", "url": "/" },
-                    { "text": "Meet the Team", "url": "/" },
-                    { "text": "Other Collaborators", "url": "/" },
-                    { "text": "Videos", "url": "/" }
+                    { "text": "About Us", "url": "#about" },
+                    { "text": "Meet the Team", "url": "#team" },
+                    { "text": "Other Collaborators", "url": "#about" },
+                    { "text": "Videos", "url": "#videosabout" }
                 ]
             },
             {
                 "title": "Version History",
                 "links": [
-                    { "text": "Open Source", "url": "/" },
-                    { "text": "Web Applications", "url": "/" },
-                    { "text": "Mobile Devices", "url": "/" },
-                    { "text": "IoT Development", "url": "/" },
-                    { "text": "Architecture Fundamentals", "url": "/" }
+                    { "text": "Open Source", "url": "#opensource" },
+                    { "text": "Web Applications", "url": "#webapplications" },
+                    { "text": "Mobile Devices", "url": "#mobiledevices" },
+                    { "text": "IoT Development", "url": "#iotdevelopment" },
+                    { "text": "Architecture Fundamentals", "url": "#architecturefundamentals" }
                 ]
             },
             {
                 "title": "Help Center",
                 "links": [
-                    { "text": "Frequently Asked Questions", "url": "/" },
-                    { "text": "Submit Your Question", "url": "/" },
-                    { "text": "Contact", "url": "/" },
-                    { "text": "Complaints Book", "url": "/" }
+                    { "text": "Frequently Asked Questions", "url": "#faq" },
+                    { "text": "Submit Your Question", "url": "#contact" },
+                    { "text": "Contact", "url": "#contact" },
+                    { "text": "Complaints Book", "url": "#contact" }
                 ]
             }
         ],
