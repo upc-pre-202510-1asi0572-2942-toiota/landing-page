@@ -31,7 +31,7 @@ export const VideosAbout = () => {
             <iframe
               width="100%"
               height="315"
-              src="https://www.youtube.com/embed/exampleTeamVideo"
+              src="https://www.youtube.com/embed/jHqsW2_zkxw"
               title="Video about the team"
               frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
