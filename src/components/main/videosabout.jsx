@@ -19,7 +19,7 @@ export const VideosAbout = () => {
             <iframe
               width="100%"
               height="315"
-              src="https://www.youtube.com/embed/Eg2EyFeUo_g"
+              src="https://www.youtube.com/embed/YKja7u9tGwc"
               title="Video about the product"
               frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"

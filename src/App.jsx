@@ -31,7 +31,7 @@ const App = () => {
       <About data={t('About', { returnObjects: true })} />
       <Team data={t('Team', { returnObjects: true })} />
       <Contact data={t('Contact', { returnObjects: true })} />
-      {/* <VideosAbout data={t('VideosAbout', { returnObjects: true })} /> */}
+      <VideosAbout data={t('VideosAbout', { returnObjects: true })} /> 
       <Footer data={t('Footer', { returnObjects: true })} />
     </div>
   );
