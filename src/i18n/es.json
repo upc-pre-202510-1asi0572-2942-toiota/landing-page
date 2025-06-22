@@ -321,7 +321,8 @@
             "testimonials": "Testimonios",
             "about": "Sobre Nosotros",
             "team": "Equipo",
-            "contact": "Contacto"
+            "contact": "Contacto",
+            "videosAbout": "Videos Sobre Nosotros"
         }
     },
     "VideosAbout": {

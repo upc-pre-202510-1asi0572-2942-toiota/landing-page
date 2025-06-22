@@ -5,7 +5,7 @@ export const VideosAbout = () => {
   const { t } = useTranslation();
 
   return (
-    <div id="videos-about" className="videos-about-section">
+    <div id="videosabout" className="videos-about-section">
       <div className="container">
         <div className="section-title">
           <h2>{t('VideosAbout.title')}</h2>

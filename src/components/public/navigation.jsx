@@ -62,6 +62,11 @@ export const Navigation = () => {
                 {t('Navigation.links.contact', 'Contact')}
               </a>
             </li>
+            <li>
+              <a href='#videosabout' className='page-scroll'>
+                {t('Navigation.links.videosAbout', 'VideosAbout')}
+              </a>
+            </li>
           </ul>
         </div>
       </div>
