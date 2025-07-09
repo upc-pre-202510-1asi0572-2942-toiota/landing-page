@@ -27,7 +27,7 @@ export const Header = () => {
                 <p>{t('Header.paragraph')}</p>
                 <div className='mastermind-buttons'>
                   <a
-                    href='https://hormonalcare-frontend.onrender.com/selectRole'
+                    href='https://hormonalcarefrontend.netlify.app/login'
                     className='btn btn-custom btn-lg page-scroll'
                     target='_blank'
                     rel='noopener noreferrer'
